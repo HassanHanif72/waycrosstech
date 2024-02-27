@@ -1,0 +1,1600 @@
+/* For Google Chrome (125% zoom level) */
+@media screen and (-webkit-min-device-pixel-ratio: 1.25),
+  screen and (min-resolution: 120dpi) {
+}
+
+@media (min-width: 1280px) and (max-width: 1366px) {
+    .termscm {
+    padding-top: 175px;
+    }
+    /*blog detail*/
+    .blog-detail {
+    padding-top: 180px;
+    padding-bottom: 40px;
+    }
+    .blog-para {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+    /*end*/
+    /*blog*/
+    .blog .card-sec h3 {
+    font-size: 16px;
+    }
+    /*end*/
+    /*Who we are*/
+    .approach-section .left h2 {
+    font-size: 30px;
+    }
+    .approach-body p {
+    height: 190px;
+    }
+    .effective-section .left h2 {
+    font-size: 30px;
+    }
+    .effective-body .effective-inner h3 {
+    font-size: 35px;
+    }
+    .about-us .left h2 {
+    font-size: 30px;
+    }
+    .team-section .left h2{
+        font-size: 30px;
+    }
+    /*end*/
+    /*Portfolio*/
+    .portfolio-section {
+    padding-top: 30px;
+    padding-bottom: 55px;
+    }
+    .portfolio {
+        padding-top: 190px;
+    padding-bottom: 40px;
+    }
+    .process-section .card-sec .card-overlay-upper {
+    width: 100%;
+    }
+    .portfolio h1 {
+    font-size: 40px;
+    }
+    .portfolio-section .left h2{
+        font-size: 40px;
+    }
+    /*end*/
+    
+    /*Home*/
+    
+    .talk-business .form-body label {
+    font-size: 25px;
+    }
+    .talk-business .form-body input, .talk-business .form-body select {
+    font-size: 25px;
+    }
+    .talk-business h3 {
+    font-size: 40px;
+    }
+    .client-sec h3 {
+    font-size: 40px;
+    }
+    .design-body-right img {
+    top: 266px;
+    }
+    .website span {
+    font-size: 40px;
+    }
+    .website h3 {
+    font-size: 120px;
+    }
+    .application h3 {
+    font-size: 120px;
+    }
+    .d-animation h3 {
+    font-size: 120px;
+    }
+    .digital-sec h3 {
+    font-size: 120px;
+    }
+    .design-sec h3 {
+    font-size: 120px;
+    }
+    .steps-sec .step-right h4 {
+    font-size: 25px;
+    }
+    .steps-sec .step-left span a {
+    font-size: 120px;
+    }
+    .causes-sec h3 {
+    font-size: 40px;
+    }
+    .steps-sec h3 {
+    font-size: 40px;
+    }
+    .navigation-tabs ul li a{
+    font-size: 16px;
+}
+    .navigation-tabs ul li {
+    padding-left: 20px;
+
+}
+
+    .scrolling-sec .scrool-left h1 {
+    font-size: 135px;
+    }
+    .scrolling-sec .scrool-left h2 {
+    font-size: 65px;
+    }
+.scrolling-start section:nth-child(1)::before {
+    left: 52px;
+    height: 21%;
+    font-size:100px;
+}
+.scrolling-start section:nth-child(2)::before {
+    left: 52px;
+    height: 21%;
+    font-size:100px;
+}
+.scrolling-start section:nth-child(3)::before {
+    left: 52px;
+    height: 21%;
+    font-size:100px;
+}
+.scrolling-start section:nth-child(4)::before {
+    left: 52px;
+    height: 21%;
+    font-size:100px;
+}
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .scrolling-sec .scrool-left h3 {
+    font-size: 60px;
+    letter-spacing: 2px;
+    }
+    /*blog detail*/
+    .blog-detail {
+    padding-top: 150px;
+    padding-bottom: 40px;
+    }
+    .blog-para {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+    .blog-detail span {
+    font-size: 14px;
+    }
+    .blog-detail h1 {
+    font-size: 30px;
+    }
+    /*end*/
+    /*blog*/
+    .blog h2{
+        font-size: 30px;
+    }
+    .blog {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+    .blog .card-sec h3 {
+    font-size: 16px;
+        height: 60px;
+    }
+    /*end*/
+    .navbar-brand img {
+    width: 110px;
+    }
+    .navbar-toggler img {
+    width: 30px;
+    }
+     /*website*/
+    .section-3 .left h2 {
+    font-size: 30px;
+    }
+    .section-3 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+    .expertise h2 {
+    font-size: 30px;
+    }
+    .expertise .left h3 {
+    font-size: 25px;
+    }
+    .section-portfolio h2{
+        font-size: 30px;
+    }
+    .expertise {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+    .section-portfolio {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+    .process-section h2 {
+    font-size: 30px;
+    }
+    .process-section .card-sec-body {
+    display: block;
+        width: 40%;
+    }
+    .process-section .card-sec {
+    width: 100%;
+    }
+    .process-section .card-sec .card-overlay h3 {
+    font-size: 20px;
+    }
+    .process-section .card-sec-body .connect:nth-child(1)::after {
+        left: 42%;
+        display:none;
+    }
+    .process-section .card-sec-body .connect:nth-child(2)::after{
+        left: 42%;
+        display:none;
+    }
+    .process-section .card-sec-body .connect:nth-child(3)::after{
+        left: 42%;
+        display:none;
+    }
+    .process-section .card-sec-body .connect:nth-child(4)::after{
+        display:none;
+    }
+    .process-section .card-sec .card-overlay-upper {
+    width: 75%;
+    }
+    .process-section .card-sec .card-overlay-upper p {
+    font-size: 26px !important;
+    }
+    .process-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+    .banner-sec {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    }
+    .banner-sec h2 {
+    font-size: 25px;
+    }
+    .section-portfolio .card-sec .card-inner h3 {
+    font-size: 16px;
+    }
+    /*end*/
+    /*Who we are*/
+    .approach-section .left h2 {
+    font-size: 30px;
+    }
+    .approach-body p {
+    height: 190px;
+    }
+    .effective-section .left h2 {
+    font-size: 30px;
+    }
+    .effective-body .effective-inner h3 {
+    font-size: 35px;
+    }
+    .about-us .left h2 {
+    font-size: 30px;
+    }
+    .team-section .left h2{
+        font-size: 30px;
+    }
+    /*end*/
+    /*Portfolio*/
+    .portfolio-section {
+    padding-top: 30px;
+    padding-bottom: 55px;
+    }
+    .portfolio {
+        padding-top: 145px;
+    padding-bottom: 40px;
+    }
+    p{
+        font-size:15px !important;
+    }
+    .portfolio h1 {
+    font-size: 30px;
+    }
+    .portfolio-section .left h2{
+        font-size: 30px;
+    }
+    /*end*/
+    
+    /*Home*/
+    
+    .logo {
+        width: 180px;
+    }
+    .ball {
+    width: 15px;
+    height: 15px;
+    }
+    .client-sec p{
+        font-size:15px;
+    }
+    .offcanvas-header .btn-close{
+        position:relative;
+        background-color: transparent;
+    }
+    .offcanvas-header img{
+            width: 150px;
+    }
+    .footer-links > ul > li > a {
+    font-size: 13px;
+}
+    .footer-links > h6 {
+    font-size: 1rem;
+    }
+    .footer-logo a {
+    font-size: 15px;
+    }
+    .footer-bottom .social-link {
+    text-align: center !important;
+}
+    .footer-bootom-links > span {
+    font-size: 15px;
+    margin-bottom: 10px;
+    display: block;
+    }
+    .footer-logo p{
+        font-size: 15px;
+    }
+    .footer-links {
+    text-align: left;
+}
+    .talk-business {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+    .btn {
+    padding: 8px 30px;
+    font-size: 13px;
+}
+    .talk-business .form-body label {
+    font-size: 22px;
+    }
+    .talk-business .form-body {
+    display: block;
+    }
+    .talk-business .form-body input, .talk-business .form-body select {
+    text-align: center;
+    width: 100%;
+    font-size: 22px;
+    }
+    .talk-business h3 {
+    font-size: 30px;
+    }
+    .navigation-tabs ul li a {
+    font-size: 15px;
+    }
+    .client-sec h3 {
+    font-size: 30px;
+    }
+    .client-sec {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+    .design-sec a>img{
+        width: 55px;
+    }
+    .d-animation a>img{
+        width: 55px;
+    }
+    .application a>img{
+        width: 55px;
+    }
+    .website a>img{
+        width: 55px;
+    }
+    .digital-body-center img {
+    width: 55px;
+}
+    .website-body-right {
+    text-align: center;
+}
+    .digital-body-left {
+    text-align: center;
+}
+    .d-animation-body-left {
+    text-align: center;
+}
+    .application-body-left{
+        text-align:center;
+    }
+    .steps-sec {
+    padding-bottom: 20px;
+    }
+    .digital-sec {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+    .d-animation {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+    .application {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+    .design-sec .design-body-left img {
+    top: 0;
+}
+    .design-sec {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+    .design-body-right img {
+    top: 102px;
+    }
+    .digital-sec h3 {
+    font-size: 65px;
+    margin-bottom: 20px;
+    }
+    .design-sec h3 {
+    font-size: 65px;
+    margin-bottom: 20px;
+    }
+    
+    
+    .d-animation h3 {
+    font-size: 65px;
+    margin-bottom: 20px;
+    }
+    
+    
+    .application h3 {
+    font-size: 65px;
+    margin-bottom: 20px;
+    }
+    .website span {
+    font-size: 30px;
+    }
+    .website h3 {
+    font-size: 65px;
+    margin-bottom: 20px;
+    }
+    .website-body-right img {
+    top: 0;
+    transform: scale(1.5);
+}
+    
+    .website {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+    .steps-sec .step-right p {
+    font-size: 15px;
+    }
+    .steps-sec .step-right h4 {
+    font-size: 20px;
+    }
+    .steps-sec .step-left span a {
+    font-size: 70px;
+    }
+    .steps-sec h3 {
+    font-size: 30px;
+    }
+    .causes-sec {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+    .causes-sec h3 {
+    font-size: 30px;
+    }
+    
+    .scroll-image-container{
+        display:none;
+    }
+    .scrolling-sec .scrool-left p{
+        font-size:15px;
+        margin-bottom: 15px;
+    }
+    .scrool-right img {
+    width: 100%;
+    }
+    .navigation-tabs ul {
+    display: flex;
+    padding: 0;
+    }
+    .navigation-tabs ul li {
+    padding-left: 15px;
+    }
+    .scrolling-sec {
+    padding-bottom: 27px;
+    padding-top: 60px;
+    height: auto;
+    }
+    .scrolling-sec .scrool-left h1 {
+    font-size: 42px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 12px;
+    margin-top: 0px;
+    letter-spacing: 0;
+    font-weight: 500;
+    }
+    .scrolling-sec .scrool-left h2 {
+    font-size: 42px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 12px;
+    margin-top: 0px;
+    letter-spacing: 0;
+    font-weight: 500;
+    }
+.scrolling-start section:nth-child(1)::before {
+    font-size: 35px;
+    left: 35px;
+    height: 18%;
+}
+.scrolling-start section:nth-child(2)::before {
+    font-size: 35px;
+    left: 35px;
+    height: 15%;
+}
+.scrolling-start section:nth-child(3)::before {
+    font-size: 35px;
+    left: 35px;
+    height: 15%;
+}
+.scrolling-start section:nth-child(4)::before {
+    font-size: 35px;
+    left: 35px;
+    height: 15%;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .design-Lottie {
+    position: relative;
+    margin-top:50px;
+    }
+    .app-Lottie lottie-player {
+    width: 100%;
+    transform: scale(0.8);
+    }
+    .app-Lottie {
+    position: relative;
+    }
+    .scrolling-sec .scrool-left h3 {
+    font-size: 50px;
+    letter-spacing: 2px;
+    }
+    /*blog detail*/
+    .blog-detail {
+    padding-top: 150px;
+    padding-bottom: 40px;
+    }
+    .blog-para {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+    /*end*/
+    /*blog*/
+    .blog h2{
+        font-size: 30px;
+    }
+    .blog {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+    .blog .card-sec h3 {
+    font-size: 16px;
+    }
+    /*end*/
+    /*website*/
+    .section-3 .left h2 {
+    font-size: 30px;
+    }
+    .section-3 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+    .expertise h2 {
+    font-size: 30px;
+    }
+    .expertise .left h3 {
+    font-size: 25px;
+    }
+    .section-portfolio h2{
+        font-size: 30px;
+    }
+    .expertise {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+    .section-portfolio {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+    .process-section h2 {
+    font-size: 30px;
+    }
+    .process-section .card-sec-body {
+    display: block;
+        width: 50%;
+    }
+    .process-section .card-sec {
+    width: 100%;
+    }
+    .process-section .card-sec .card-overlay h3 {
+    font-size: 20px;
+    }
+    .process-section .card-sec-body .connect:nth-child(1)::after {
+        left: 42%;
+        display:none;
+    }
+    .process-section .card-sec-body .connect:nth-child(2)::after{
+        left: 42%;
+        display:none;
+    }
+    .process-section .card-sec-body .connect:nth-child(3)::after{
+        left: 42%;
+        display:none;
+    }
+    .process-section .card-sec-body .connect:nth-child(4)::after{
+        display:none;
+    }
+    .process-section .card-sec .card-overlay-upper {
+    width: 75%;
+    }
+    .process-section .card-sec .card-overlay-upper p {
+    font-size: 26px !important;
+    }
+    .process-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+    .banner-sec {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    }
+    .banner-sec h2 {
+    font-size: 25px;
+    }
+    .section-portfolio .card-sec .card-inner h3 {
+    font-size: 16px;
+    }
+    /*end*/
+    /*Who we are*/
+    .approach-section .left h2 {
+    font-size: 30px;
+    }
+    .approach-body {
+    display: block;
+    }
+    .approach-body p {
+    height: auto;
+    }
+    .approach-body > div {
+    width: 100%;
+    }
+    .approach-body-sec {
+    width: 100%;
+    }
+    .approach-body > div::after{
+        display:none;
+    }
+    .approach-body h3 {
+    font-size: 20px;
+    }
+    .effective-section .left h2 {
+    font-size: 30px;
+    }
+    .effective-body {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    }
+    .effective-body .effective-inner {
+    width: 100%;
+    margin-bottom: 20px;
+    }
+    .effective-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+    .effective-body .effective-inner h3 {
+    font-size: 35px;
+    }
+    .about-us .left h2 {
+    font-size: 30px;
+    }
+    .team-section .left h2{
+        font-size: 30px;
+    }
+    .team-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+    .about-us {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+    .team-body .team-img .overlay{
+        display:none;
+    }
+    .team-body .team-img img {
+    padding: 5px 5px;
+    }
+
+    /*end*/
+    /*Portfolio*/
+    .portfolio-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+    .portfolio {
+    padding-top: 130px;
+    padding-bottom: 30px;
+    }
+    p{
+        font-size:15px !important;
+    }
+    .portfolio h1 {
+    font-size: 30px;
+    }
+    .portfolio-section .left h2{
+        font-size: 30px;
+    }
+    /*end*/
+    
+    /*Home*/
+.logo {
+    width: 150px;
+    }
+    .ball {
+    width: 15px;
+    height: 15px 
+    }
+    .client-sec p{
+        font-size:15px;
+    }
+    .offcanvas-header .btn-close{
+        position:relative;
+        background-color: transparent;
+    }
+    .offcanvas-header img{
+            width: 100px;
+    }
+    .text-m-center{
+        text-align:center !important;
+    }
+    .footer-links > ul > li > a {
+    font-size: 15px;
+}
+    .footer-links > h6 {
+    font-size: 1rem;
+    margin-top: 25px;
+    }
+    .footer-logo a {
+    font-size: 15px;
+    }
+    .footer-bottom .social-link {
+    text-align: center !important;
+}
+    .footer-bootom-links > span {
+    font-size: 15px;
+    margin-bottom: 10px;
+    display: block;
+    }
+    .footer-bottom {
+    text-align: center;
+    }
+    .footer {
+    text-align: center;
+    }
+    .footer-logo p{
+        font-size: 15px;
+    }
+    .footer-links {
+    text-align: left;
+}
+    .talk-business {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+    .btn {
+    padding: 8px 30px;
+    font-size: 13px;
+}
+    .talk-business .form-body label {
+    font-size: 22px;
+    }
+    .talk-business .form-body {
+    display: block;
+    }
+    .talk-business .form-body input, .talk-business .form-body select {
+    text-align: center;
+    width: 100%;
+    font-size: 22px;
+    }
+    .talk-business h3 {
+    font-size: 30px;
+    }
+    .navigation-tabs ul li a {
+    font-size: 16px;
+    }
+    .client-sec h3 {
+    font-size: 30px;
+    }
+    .client-sec {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+    .design-sec a>img{
+        width: 55px;
+    }
+    .d-animation a>img{
+        width: 55px;
+    }
+    .application a>img{
+        width: 55px;
+    }
+    .website a>img{
+        width: 55px;
+    }
+    .digital-body-center img {
+    width: 55px;
+}
+    .website-body-right {
+    text-align: center;
+}
+    .digital-body-left {
+    text-align: center;
+}
+    .d-animation-body-left {
+    text-align: center;
+}
+    .application-body-left{
+        text-align:center;
+    }
+    .steps-sec {
+    padding-bottom: 20px;
+    }
+    .digital-sec {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height:auto;
+    }
+    .d-animation {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height:auto;
+    }
+    .application {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height:auto;
+    }
+    .design-sec .design-body-left img {
+    top: 0;
+}
+    .design-sec {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height:auto;
+    }
+    .design-body-right img {
+    display: none;
+}
+    .digital-sec h3 {
+    font-size: 65px;
+    margin-bottom: 20px;
+    }
+    .design-sec h3 {
+    font-size: 65px;
+    margin-bottom: 20px;
+    }
+    .d-animation-body-left img {
+    top: 0;
+    transform: scale(1);
+}
+    .d-animation-body-right img {
+    display: none;
+    }
+    .d-animation h3 {
+    font-size: 65px;
+    margin-bottom: 20px;
+    }
+    .application-body-left img {
+    top: 0;
+    transform: scale(1);
+}
+    .application-body-right img {
+    display: none;
+    }
+    .application h3 {
+    font-size: 65px;
+    margin-bottom: 20px;
+    }
+    .website span {
+    font-size: 30px;
+    }
+    .website h3 {
+    font-size: 65px;
+    margin-bottom: 20px;
+    }
+    .website-body-right img {
+    top: 0;
+    transform: scale(1);
+}
+    .website-body-left img {
+    display: none;
+    }
+    .website {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height:auto;
+    }
+    .steps-sec .step-right p {
+    font-size: 15px;
+    }
+    .steps-sec .step-right h4 {
+    font-size: 20px;
+    }
+    .steps-sec .step-left span a {
+    font-size: 50px;
+    }
+    .steps-sec h3 {
+    font-size: 30px;
+    }
+    .causes-sec {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+    .causes-sec h3 {
+    font-size: 30px;
+    }
+    .navbar-toggler img{
+    width: 30px;
+    }
+    .navbar-brand img {
+    width: 160px;
+    }
+    .scroll-image-container{
+        display:none;
+    }
+    .scrolling-sec .scrool-left p{
+        font-size:15px;
+        margin-bottom: 15px;
+    }
+    .scrool-right img {
+    width: 100%;
+    margin-top: 20px;
+    }
+    .navigation-tabs ul {
+    display: block;
+    padding: 0;
+    }
+    .navigation-tabs ul li {
+    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    display: inline-block;
+    width: 48%;
+    }
+    .navigation-tabs ul li:last-child a {
+    padding: 10px;
+}
+    .scrolling-sec {
+    padding-bottom: 27px;
+    padding-top: 60px;
+    height: auto;
+    }
+    .scrolling-sec .scrool-left h1 {
+    font-size: 42px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 12px;
+    margin-top: 0px;
+    letter-spacing: 0;
+    font-weight: 500;
+    }
+    .scrolling-sec .scrool-left h2 {
+    font-size: 42px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 12px;
+    margin-top: 0px;
+    letter-spacing: 0;
+    font-weight: 500;
+    }
+.scrolling-start section:nth-child(1)::before {
+    font-size: 35px;
+    left: 35px;
+    height: 25%;
+}
+.scrolling-start section:nth-child(2)::before {
+    font-size: 35px;
+    left: 35px;
+    height: 22%;
+}
+.scrolling-start section:nth-child(3)::before {
+    font-size: 35px;
+    left: 35px;
+    height: 22%;
+}
+.scrolling-start section:nth-child(4)::before {
+    font-size: 35px;
+    left: 35px;
+    height: 22%;
+}
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .main-hero-sec {
+    padding-top: 140px;
+}
+.frman h4{
+    display:none;
+}
+.frman{
+    position:absolute !important;
+    top:45%;
+}
+.footer-logo img {
+    margin-bottom: 15px;
+    margin-top: 70px;
+}
+
+    .main-text h1{
+        font-size:30px;
+    }
+    .main-text a {
+    padding: 8px 20px;
+    font-size: 12px;
+}
+    .main-mb{display:block;}
+    .main{display:none;}
+    .navbar-nav li a{
+        font-size:1.5rem;
+    }
+    /*.main #myCanvas{*/
+    /*    display:none;*/
+    /*}*/
+    /*.way-vedio {*/
+    /*background-color: #000;*/
+    /*display: block;*/
+    /*padding-top: 55px;*/
+    /*padding-bottom: 0px;*/
+    /*}*/
+    /*#preloader{display:none;}*/
+    .design-Lottie {
+    position: relative;
+    margin-top:50px;
+    }
+    .cause-res{
+        display:none;
+    }
+    .app-Lottie lottie-player {
+    width: 100%;
+    transform: scale(0.8);
+    }
+    .app-Lottie {
+    position: relative;
+    }
+    .digital-Lottie lottie-player {
+    width: 100%;
+    transform: scale(1);
+}
+    .scrolling-sec .scrool-left h3 {
+    font-size: 50px;
+    letter-spacing: 2px;
+    }
+    .termscm {
+    padding-top: 130px;
+    padding-bottom: 20px;
+    }
+    /*blog detail*/
+    .blog-detail h1 {
+    font-size: 25px;
+    }
+    .blog-detail .right img{
+        margin-top:15px;
+    }
+    .blog-detail span {
+    font-size: 13px;
+    }
+    .blog-detail {
+    padding-top: 140px;
+    padding-bottom: 30px;
+    }
+    .blog-para {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+    .blog-para .blog-para-sec h2 {
+    font-size: 24px;
+    }
+    .blog-para .blog-para-sec h3 {
+    font-size: 22px;
+    }
+    .blog-para .blog-para-sec h4 {
+    font-size: 20px;
+    }
+    /*end*/
+    /*blog*/
+    .blog h2{
+        font-size: 30px;
+    }
+    .blog {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+    .blog .card-sec h3 {
+    font-size: 16px;
+    }
+    /*end*/
+    /*application*/
+    .section-3 .right img {
+    margin-bottom: 20px;
+    }
+    /*end*/
+    /*website*/
+    .section-3 .left h2 {
+    font-size: 30px;
+    }
+    .section-3 {
+    padding-top: 0px;
+    padding-bottom: 30px;
+    }
+    .expertise h2 {
+    font-size: 30px;
+    }
+    .expertise .left h3 {
+    font-size: 25px;
+    }
+    .section-portfolio h2{
+        font-size: 30px;
+    }
+    .expertise {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+    .section-portfolio {
+    padding-top: 30px;
+    padding-bottom: 0px;
+    }
+    .process-section h2 {
+    font-size: 30px;
+    }
+    .process-section .card-sec-body {
+    display: block;
+    }
+    .process-section .card-sec {
+    width: 100%;
+    }
+    .process-section .card-sec .card-overlay h3 {
+    font-size: 20px;
+    }
+    .process-section .card-sec-body .connect:nth-child(1)::after {
+    left: 42%;
+    }
+    .process-section .card-sec-body .connect:nth-child(2)::after{
+        left: 42%;
+        background-image: url(../images/after-down.webp);
+        display:block;
+    }
+    .process-section .card-sec-body .connect:nth-child(3)::after{
+        left: 42%;
+        display:block;
+    }
+    .process-section .card-sec-body .connect:nth-child(4)::after{
+        left: 42%;
+        background-image: url(../images/after-down.webp);
+        z-index: 9999;
+    }
+    .process-section .card-sec .card-overlay-upper {
+    width: 75%;
+    }
+    .process-section .card-sec .card-overlay-upper p {
+    font-size: 26px !important;
+    }
+    .process-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+    .banner-sec {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    }
+    .banner-sec h2 {
+    font-size: 25px;
+    }
+    .section-portfolio .card-sec .card-inner h3 {
+    font-size: 16px;
+    }
+    /*end*/
+    /*Who we are*/
+    .approach-section .left h2 {
+    font-size: 30px;
+    }
+    .approach-body {
+    display: block;
+    }
+    .approach-body p {
+    height: auto;
+    }
+    .approach-body > div {
+    width: 100%;
+    }
+    .approach-body-sec {
+    width: 100%;
+    }
+    .approach-body > div::after{
+        display:none;
+    }
+    .approach-body h3 {
+    font-size: 20px;
+    }
+    .effective-section .left h2 {
+    font-size: 30px;
+    }
+    .effective-body {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    }
+    .effective-body .effective-inner {
+    width: 100%;
+    margin-bottom: 20px;
+    }
+    .effective-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+    .effective-body .effective-inner h3 {
+    font-size: 35px;
+    }
+    .about-us .left h2 {
+    font-size: 30px;
+    }
+    .team-section .left h2{
+        font-size: 30px;
+    }
+    .team-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+    .about-us {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+    .team-body .team-img .overlay{
+        display:none;
+    }
+    .team-body .team-img img {
+    padding: 5px 5px;
+    }
+
+    /*end*/
+    /*Portfolio*/
+    .portfolio-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+    .portfolio {
+    padding-top: 130px;
+    padding-bottom: 30px;
+    }
+    p{
+        font-size:15px !important;
+    }
+    .portfolio h1 {
+    font-size: 30px;
+    }
+    .portfolio-section .left h2{
+        font-size: 30px;
+    }
+    /*end*/
+    
+    /*Home*/
+    .logo {
+    width: 150px;
+    }
+    .ball {
+    width: 15px;
+    height: 15px 
+    }
+    .client-sec p{
+        font-size:15px;
+    }
+    .offcanvas-header .btn-close{
+        position:relative;
+        background-color: transparent;
+    }
+    .offcanvas-header img{
+            width: 100px;
+    }
+    .text-m-center{
+        text-align:center !important;
+    }
+    .footer-links > ul > li > a {
+    font-size: 15px;
+}
+    .footer-links > h6 {
+    font-size: 1rem;
+    margin-top: 25px;
+    }
+    .footer-logo a {
+    font-size: 15px;
+    }
+    .footer-bottom .social-link {
+    text-align: center !important;
+}
+    .footer-bootom-links > span {
+    font-size: 15px;
+    margin-bottom: 10px;
+    display: block;
+    }
+    .footer-bottom {
+    text-align: center;
+    }
+    .footer {
+    text-align: center;
+    position:relative;
+    }
+    .footer-logo p{
+        font-size: 15px;
+    }
+    .footer-links {
+    text-align: left;
+}
+    .talk-business {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+    .btn {
+    padding: 8px 30px;
+    font-size: 13px;
+}
+    .talk-business .form-body label {
+    font-size: 22px;
+    }
+    .talk-business .form-body {
+    display: block;
+    }
+    .talk-business .form-body input, .talk-business .form-body select {
+    text-align: center;
+    width: 100%;
+    font-size: 22px;
+    }
+    .talk-business h3 {
+    font-size: 30px;
+    }
+    .navigation-tabs ul li a {
+    font-size: 16px;
+    }
+    .client-sec h3 {
+    font-size: 30px;
+    }
+    .client-sec {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+    .design-sec a>img{
+        width: 55px;
+    }
+    .d-animation a>img{
+        width: 55px;
+    }
+    .application a>img{
+        width: 55px;
+    }
+    .website a>img{
+        width: 55px;
+    }
+    .digital-body-center img {
+    width: 55px;
+}
+    .website-body-right {
+    text-align: center;
+}
+    .digital-body-left {
+    text-align: center;
+}
+    .d-animation-body-left {
+    text-align: center;
+}
+    .application-body-left{
+        text-align:center;
+    }
+    .steps-sec {
+    padding-bottom: 20px;
+    }
+    .digital-sec {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height:auto;
+    }
+    .d-animation {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height:auto;
+    }
+    .application {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height:auto;
+    }
+    .design-sec .design-body-left img {
+    top: 0;
+}
+    .design-sec {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height:auto;
+    }
+    .design-body-right img {
+    display: none;
+}
+    .digital-sec h3 {
+    font-size: 65px;
+    margin-bottom: 20px;
+    }
+    .design-sec h3 {
+    font-size: 65px;
+    margin-bottom: 20px;
+    }
+    .d-animation-body-left img {
+    top: 0;
+    transform: scale(1);
+}
+    .d-animation-body-right img {
+    display: none;
+    }
+    .d-animation h3 {
+    font-size: 65px;
+    margin-bottom: 20px;
+    }
+    .application-body-left img {
+    top: 0;
+    transform: scale(1);
+}
+    .application-body-right img {
+    display: none;
+    }
+    .application h3 {
+    font-size: 65px;
+    margin-bottom: 20px;
+    }
+    .website span {
+    font-size: 30px;
+    }
+    .website h3 {
+    font-size: 65px;
+    margin-bottom: 20px;
+    }
+    .website-body-right img {
+    top: 0;
+    transform: scale(1);
+}
+    .website-body-left img {
+    display: none;
+    }
+    .website {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height:auto;
+    }
+    .steps-sec .step-right p {
+    font-size: 15px;
+    }
+    .steps-sec .step-right h4 {
+    font-size: 20px;
+    }
+    .steps-sec .step-left span a {
+    font-size: 50px;
+    }
+    .steps-sec h3 {
+    font-size: 30px;
+    }
+    .causes-sec {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+    .causes-sec h3 {
+    font-size: 30px;
+    }
+    .navbar-toggler img{
+    width: 30px;
+    }
+    .navbar-brand img {
+    width: 160px;
+    }
+    .scroll-image-container{
+        display:none;
+    }
+    .scrolling-sec .scrool-left p{
+        font-size:15px;
+    }
+    .scrool-right img {
+    width: 100%;
+    margin-top: 20px;
+    }
+    .navigation-tabs ul {
+    display: block;
+    padding: 0;
+    }
+    .navigation-tabs ul li {
+    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    width:48%;
+    display:inline-block;
+    }
+    .navigation-tabs ul li:last-child{
+        width:100%;
+    }
+    .scrolling-sec {
+    padding-bottom: 10px;
+    padding-top: 60px;
+    height: auto;
+    }
+    .scrolling-sec .scrool-left h1 {
+    font-size: 42px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 12px;
+    margin-top: 0px;
+    letter-spacing: 0;
+    font-weight: 500;
+    }
+    .scrolling-sec .scrool-left h2 {
+    font-size: 42px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 12px;
+    margin-top: 0px;
+    letter-spacing: 0;
+    font-weight: 500;
+    }
+.scrolling-start section:nth-child(1)::before {
+    font-size: 35px;
+    left: 20px;
+    height: 27%;
+}
+.scrolling-start section:nth-child(2)::before {
+    font-size: 35px;
+    left: 20px;
+    height: 24%;
+}
+.scrolling-start section:nth-child(3)::before {
+    font-size: 35px;
+    left: 20px;
+    height: 26%;
+}
+.scrolling-start section:nth-child(4)::before {
+    font-size: 35px;
+    left: 20px;
+    height: 26%;
+}
+.design-sec .row {
+    flex-direction: column-reverse;
+}
+.design-sec .col-sm-12:last-child {
+    display: none;
+}
+.application .col-sm-12:last-child {
+    display: none;
+}
+.application .row {
+    flex-direction: column-reverse;
+}
+.d-animation .row {
+    flex-direction: column-reverse;
+}
+.digital-sec .row .col-sm-12:first-child {
+    display: none;
+}
+.e-book-sec .row {
+    flex-direction: column-reverse;
+}
+
+.design-sec .col-sm-12:last-child {
+    display: none;
+}
+.footer-links.fr h4 {
+    text-align: center;
+}
+
+}
+@media (max-width: 320px) {
+    .social {
+    padding: 0px !important;
+}
+}

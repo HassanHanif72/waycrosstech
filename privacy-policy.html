@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy & Policy</title>
+    <!-- Favicon -->
+<link rel="icon" type="image/png" href="assets/images/favicon.png" />
+<!-- bootstrap 5.1 -->
+<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+<!-- Style css -->
+<link rel="stylesheet" href="assets/css/style.css" />
+<!-- Responsive css -->
+<link rel="stylesheet" href="assets/css/responsive.css" />
+<!-- AOS Animation -->
+<link rel="stylesheet" href="assets/css/aos.css" />
+<!-- Slick Carousel -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+
+<!-- Font Awesome -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" /> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+
+
+
+
+</head>
+<body class="ex_page">
+  <!-- ======= Header ======= -->
+  <!-- Preloader -->
+<!--<div class="preloader" id="preloader">-->
+<!--    <img src="assets/images/canvas-logo.webp" alt="Preloader" class="logo">-->
+<!--    <div class="balls">-->
+<!--        <div class="ball"></div>-->
+<!--        <div class="ball"></div>-->
+<!--        <div class="ball"></div>-->
+<!--        <div class="ball"></div>-->
+<!--        <div class="ball"></div>-->
+<!--    </div>-->
+<!--</div>-->
+<!-- end -->
+<header class="header">
+    <nav class="navbar navbar-expand-lg navbar-dark stroke bg-transparent">
+        <div class="container">
+            <a class="navbar-brand" href="index.html" data-aos="fade-right">
+                <img src="assets/images/canvas-logo.webp" alt="canvas logo"/>
+            </a>
+            <!-- Offcanvas Full Page -->
+            <button class="navbar-toggler d-xl-block d-none" data-aos="fade-left" type="button"
+                data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                <img src="assets/images/trigger.webp" alt="Trigger"/>
+            </button>
+            <!-- end -->
+
+            <!-- Offcanvas Mobile -->
+            <button class="navbar-toggler d-xl-none d-block" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="offcanvas Navbar" data-aos="zoom-in">
+                <img src="assets/images/trigger.webp" alt="Trigger"/>
+            </button>
+            <!-- end -->
+
+        </div>
+    </nav>
+</header>
+<!--Popup-->
+<div class="modal fade" id="exampleModalToggle" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!--<div class="modal-header">-->
+      <!--  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>-->
+      <!--  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>-->
+      <!--</div>-->
+      <div class="modal-body popu">
+        <div class="">
+                    <div>
+                        <h4>Lets Start Today!</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <form action="https://waycrosstech.com/signup.php" method="POST">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Full Name" name="name" pattern="[A-Za-z ]+" required/>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Email" pattern="[^\s@]+@[a-zA-Z]+[^0-9@]+\.[cC][oO][mM]$" name="email" required/>
+                            </div>
+                            <div class="mb-3">
+                                <input type="number" class="form-control" placeholder="Phone Number" name='phone' 
+                                onkeypress="if(this.value.length==12) return false;" required/>
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Company" name='service' pattern="[A-Za-z ]+" required/>
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" rows="3" placeholder="Message" name="msg" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-theme w-100 mt-3">Submit</button>
+                        </form>
+                    </div>
+                </div>
+      </div>
+      <!--<div class="modal-footer">-->
+      <!--  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+      <!--  <button type="button" class="btn btn-primary">Save changes</button>-->
+      <!--</div>-->
+    </div>
+  </div>
+</div><!--end-->
+  <!-- End Header -->
+  <div class="modal fade" id="exampleModalToggle" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!--<div class="modal-header">-->
+      <!--  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>-->
+      <!--  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>-->
+      <!--</div>-->
+      <div class="modal-body popu">
+        <div class="">
+                    <div>
+                        <h4>Lets Start Today!</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <form action="https://waycrosstech.com/signup.php" method="POST">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Full Name" name="name" pattern="[A-Za-z ]+" required/>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Email" pattern="[^\s@]+@[a-zA-Z]+[^0-9@]+\.[cC][oO][mM]$" name="email" required/>
+                            </div>
+                            <div class="mb-3">
+                                <input type="number" class="form-control" placeholder="Phone Number" name='phone' 
+                                onkeypress="if(this.value.length==12) return false;" required/>
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Company" name='service' pattern="[A-Za-z ]+" required/>
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" rows="3" placeholder="Message" name="msg" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-theme w-100 mt-3">Submit</button>
+                        </form>
+                    </div>
+                </div>
+      </div>
+      <!--<div class="modal-footer">-->
+      <!--  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+      <!--  <button type="button" class="btn btn-primary">Save changes</button>-->
+      <!--</div>-->
+    </div>
+  </div>
+</div>    <!-- Section 2 Start -->
+    <div class="lsec4 termscm">
+      <div class="container">
+        <div class="row aic">
+          <div class="col-lg-12 termsc34">
+               <h2>Privacy Policy</h2>
+                <p>This Privacy Policy outlines how we collect, use, disclose, and safeguard your personal information when you use our website and services. By accessing our website and engaging with our services, you agree to the terms of this Privacy Policy.</p>
+                <br>
+                <!--<h4>What Information We Collect</h4>-->
+                <h4>Information We Collect</h4>
+                <p>We collect information you provide directly to us. For example, we collect information when you submit data via our contact form, sign up to receive our emails, communicate with us on the Platforms or via third-party social media sites, or order our products or services. The type of information we may collect include your:</p>
+                <ul>
+                    <li>Personal Information: When you use our services, we may collect personal information, such as your name, email address, and phone number. This information is collected with your consent and is necessary for the provision of our services.</li>
+                    <li>Additional Information: In the course of using our services, you may provide additional information related to your requirements or messages, which we use to better understand and fulfill your needs.
+</li>
+                 </ul> 
+               
+                <br>
+                <h4>Use of Personal Information</h4>
+                <ul>
+                    <li> We use your personal information to communicate with you, deliver our services, and improve our offerings.</li>
+                    <li>Your information may be used for internal purposes such as analytics and research to enhance the quality of our services.</li>
+                    <!--<li>Respond to comments, questions and requests and provide customer service;</li>-->
+                    <!--<li>Communicate with you about products, services, offers, promotions, and provide news and information we think will be of interest to you;</li>-->
+                    <!--<li>Send you technical notices, updates, security alerts, and support and administrative messages;</li>-->
+                    <!--<li>Better tailor our Platforms to your interests and needs;</li>-->
+                    <!--<li>Carry out profiling activities in order to learn more about you; and-->
+                    <!-- Offer you tailored advertising based on your behavior on our Platforms.</li>-->
+                 </ul> 
+                 
+                 <br>
+                 <h4>Disclosure of Personal Information</h4>
+                <!--<p>Under the General Data Protection Regulation, you may have a number of important rights free of charge. Please note that for each of the rights below we may have valid legal reasons to refuse your request. In such instances, we will let you know if that is the case. In summary, your rights include:</p>-->
+                <ul>
+                    <li>We do not sell, trade, or otherwise transfer your personal information to third parties without your consent.</li>
+                    <li>We may share your information with trusted third parties who assist us in delivering our services, provided they agree to keep this information confidential.</li>
+                 </ul> 
+                 <br>
+                <h4>Security of Personal Information</h4>
+                <ul>
+                    <li> We prioritize the security and confidentiality of your personal information.</li>
+                    <li>While we implement industry-standard security measures, please be aware that no method of transmission over the internet is entirely secure. We strive to protect your data, but we cannot guarantee absolute security.</li>
+                   
+                 </ul> 
+                 <br>
+                <h4>Cookies and Tracking Technologies</h4>
+                <ul>
+                    <li> We use cookies and similar tracking technologies to enhance your experience on our website. You can adjust your browser settings to refuse cookies, but this may limit your access to certain features.
+</li>
+                 </ul> 
+                 <br>
+                <h4>Changes to the Privacy Policy</h4>
+                <ul>
+                    <li> Way Cross Tech reserves the right to modify this Privacy Policy at any time. Changes will be effective immediately upon posting on the website. It is your responsibility to review this Privacy Policy regularly.</li>
+                 </ul> 
+                 
+              </div>
+              </div>
+            </div>
+          </div>
+    <!-- Section 2 End -->
+<!-- Gallyery Section End -->
+<footer class="footer">
+    <div class="container">
+        <div class="row justify-content-around">
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                <div class="footer-logo">
+                    <a href="index.html"><img src="assets/images/canvas-logo.webp" alt="canvas-logo"/></a>
+                    <p>
+                        Way Cross Tech is a 360 solution to all your digital problems, we have experienced developers, marketeers, designers, and animators right here at your disposal to use as per your liking. In addition to creating scalable and secure strategies and plans we can also help with migration, upgrades and integration of new strategies. We offer a complete digital solution that is able to handle even the most extreme and complex cases easily and swiftly. 
+                    </p>
+                    <p><a href="mailto:info@example.com"><i class="fa fa-envelope"></i> info@example.com</a>
+                    </p>
+                    <a href="#" target="_blank"><img src="assets/images/trustpilot-img.webp" alt="trustpilot-img"/></a>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-12 col-xs-12 col-6">
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="who-we-are.html">Who We Are</a></li>
+                        
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-12 col-xs-12 col-6">
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="designing-services.html">Designing Services</a></li>
+                        <li><a href="web-development-services.html">Web Development</a></li>
+                        <li><a href="app-development-services.html">App Development</a></li>
+                        <li><a href="animation-services.html">Animation Services</a></li>
+                        <li><a href="digital-marketing-services.html">Digital Marketing</a></li>
+                        <li><a href="e-book-services.html">e-book services</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-12 col-xs-12 col-6">
+                <div class="footer-links fr">
+                    <h4>Contact</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="tel:1234567890"> 1234567890</a></li>
+                        <!-- <li><a href="https://wa.me/1234567890"><i class="fa-brands fa-whatsapp"></i> +1234567890</a></li> -->
+                        <li><a href="#"> 407 Lincoln Rd St 6H, Miami Beach, FL 33139</a></li>
+                        <li><a href="javascript:void(Tawk_API.toggle())"> Start Live Chat</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-12 col-xs-12 col-6 frman">
+                <div class="footer-links text-m-center">
+                    <h4>Follow Us</h4>
+                    <div class="social">
+                        <p class="mb-0">
+                            <a href="#" target="_blank" aria-label="facebook"><i
+                                    class="fa-brands fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#" target="_blank" aria-label="linkedin"><i
+                                    class="fa-brands fa-linkedin-in" target="_blank" aria-hidden="true"></i></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="footer-bottom">
+    <div class="container">
+        <div class="row align-items-center mt-0 pt-2 pb-2">
+            <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-xs-12">
+                <div class="footer-bootom-links">
+                    <span>© Copyright 2023 - 2024 Way Cross Tech. All rights reserved.</span>
+
+                </div>
+            </div>
+            <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-xs-12">
+                <div class="social-link text-end">
+                    <p class="mb-0">
+                        <a href="terms-and-conditions.html">Terms &amp; Conditions</a>
+                        <a href="privacy-policy.html">Privacy Policy</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Website JS -->
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<!-- Slick Carousel JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<!--gsap-->
+<!--<script src="https://unpkg.com/gsap@3.9.0/dist/gsap.min.js"></script>-->
+<!--<script src="https://unpkg.com/gsap@3.9.0/dist/ScrollTrigger.min.js"></script>-->
+<!-- Custom JS -->
+
+<!-- AOS JS -->
+<script src="assets/js/aos.js"></script>
+
+<script src="https://unpkg.com/%40lottiefiles/lottie-player%402.0.3/dist/lottie-player.js"></script>
+<script src="https://unpkg.com/%40lottiefiles/lottie-interactivity%401.6.2/dist/lottie-interactivity.min.js"></script>
+<script src="assets/js/main.js"></script>
+<script>
+LottieInteractivity.create({
+    player: '#firstLottie',
+
+    actions: [{
+        visibility: [0, 3.8],
+        type: 'seek',
+        frames: [0, 300],
+    }, ]
+});
+</script>
+
+<script>
+AOS.init({
+    duration: 2000
+});
+</script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>-->
+<!--<script>-->
+<!--var textWrappers = document.querySelectorAll('.coy-rt h1');-->
+<!--textWrappers.forEach((textWrapper) => {-->
+<!--    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<label class='letter'>$&</label>");-->
+
+<!--    anime.timeline({-->
+<!--            loop: true-->
+<!--        })-->
+<!--        .add({-->
+<!--            targets: textWrapper.querySelectorAll('.letter'),-->
+<!--            scale: [4, 1],-->
+<!--            opacity: [0, 1],-->
+<!--            translateZ: 0,-->
+<!--            easing: "easeOutExpo",-->
+<!--            duration: 500,-->
+<!--            delay: (el, i) => 50 * i-->
+<!--        })-->
+<!--        .add({-->
+<!--            targets: textWrapper,-->
+<!--            opacity: 0,-->
+<!--            duration: 1000,-->
+<!--            easing: "easeOutExpo",-->
+<!--            delay: 1000-->
+<!--        });-->
+<!--});-->
+
+<!--var textWrappers = document.querySelectorAll('.coy-rt h3');-->
+<!--textWrappers.forEach((textWrapper) => {-->
+<!--    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<label class='letter'>$&</label>");-->
+
+<!--    anime.timeline({-->
+<!--            loop: true-->
+<!--        })-->
+<!--        .add({-->
+<!--            targets: textWrapper.querySelectorAll('.letter'),-->
+<!--            scale: [4, 1],-->
+<!--            opacity: [0, 1],-->
+<!--            translateZ: 0,-->
+<!--            easing: "easeOutExpo",-->
+<!--            duration: 500,-->
+<!--            delay: (el, i) => 50 * i-->
+<!--        })-->
+<!--        .add({-->
+<!--            targets: textWrapper,-->
+<!--            opacity: 0,-->
+<!--            duration: 1000,-->
+<!--            easing: "easeOutExpo",-->
+<!--            delay: 1000-->
+<!--        });-->
+<!--});-->
+<!--</script>-->
+
+
+
+<!-- Nav Dropdown -->
+<script>
+$(document).ready(function() {
+    $(".service-dropdown").click(function() {
+        $(".main-drop-down").toggle("slow");
+    });
+});
+</script>
+<!-- end -->
+<!-- Hover Image and Mouse Move -->
+<!--<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>-->
+<!--<script>-->
+<!--$(document).ready(function() {-->
+<!--    $('.trigger').hover(function() {-->
+<!--        var imageId = $(this).data('image');-->
+<!--        $('#' + imageId).fadeIn();-->
+
+<!--        $(document).on('mousemove', function(e) {-->
+<!--            $('#' + imageId).css({-->
+<!--                left: e.pageX - $('#' + imageId).width() / 2,-->
+<!--                top: e.pageY - $('#' + imageId).height() / 2-->
+<!--            });-->
+<!--        });-->
+<!--    }, function() {-->
+<!--        $('.hover-img').fadeOut();-->
+<!--        $(document).off('mousemove');-->
+<!--    });-->
+
+     <!--Prevent blinking when hovering over the thumbnail icon-->
+<!--    $('.image-link').hover(function() {-->
+<!--        $(this).find('.hover-img').stop(true, true).fadeIn();-->
+<!--    }, function() {-->
+<!--        $(this).find('.hover-img').stop(true, true).fadeOut();-->
+<!--        $(document).off('mousemove');-->
+<!--    });-->
+<!--});-->
+<!--</script>-->
+<!-- end -->
+
+<!-- Offcanvas Full Page -->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <div class="ofcanvas_bdy">
+            <div class="ofcanvas1">
+                <div class="logonavbar2" data-aos="fade-zoom-in">
+                    <img src="assets/images/canvas-logo.webp" alt="canvas logo"/>
+                   
+                </div>
+            </div>
+            <div class="ofcncls2">
+                <div class="main_navbar">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="who-we-are.html">Who We Are</a></li>
+                        <li><a href="#" class="service-dropdown">Services</a>
+                            <ul class="main-drop-down">
+                                <li><a href="designing-services.html">-Designing Services</a></li>
+                                <li><a href="web-development-services.html">-Web Development</a></li>
+                                <li><a href="app-development-services.html">-App Development</a></li>
+                                <li><a href="animation-services.html">-Animation Services</a></li>
+                                <li><a href="digital-marketing-services.html">-Digital Marketing</a></li>
+                                <li><a href="e-book-services.html">-e-book services</a></li>
+                                
+                            </ul>
+
+                        </li>
+
+
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="contact-us.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="main_navbar_social_icons">
+                    <ul>
+                        <li><a href="#" target="_blank" aria-label="facebook"><i class="fa-brands fa fa-facebook fa-fade"></i></a></li>
+                        <li><a href="mailto:info@example.com" target="_blank"><i class=" fa fa-envelope fa-fade"></i></a></li>
+                        <!--<li><a href=""><i class="fa-brands fa fa-twitter fa-fade"></i></a></li>-->
+                        <li><a href="#" target="_blank" aria-label="linkedin"><i class="fa-brands fa fa-linkedin fa-fade"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end -->
+
+<!-- Offcanvas Mobile Side Bar -->
+<div class="offcanvas offcanvas-start offcanvas-mobile" tabindex="-1" id="offcanvasNavbar"
+    aria-labelledby="offcanvasNavbarLabel">
+    <div class="offcanvas-header">
+        <a href="#"><img src="assets/images/canvas-logo.webp" alt="logo"></a>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body mobile-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="who-we-are.html">
+                    Who We Are
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="service-dropdown text-decoration-none">Services</a>
+                            <ul class="main-drop-down" style="display:none">
+                                <li><a class="text-decoration-none" href="designing-services.html">Designing Services</a></li>
+                                <li><a class="text-decoration-none" href="web-development-services.html">Web Development</a></li>
+                                <li><a class="text-decoration-none" href="app-development-services.html">App Development</a></li>
+                                <li><a class="text-decoration-none" href="animation-services.html">Animation Services</a></li>
+                                <li><a class="text-decoration-none" href="digital-marketing-services.html">Digital Marketing</a></li>
+                                <li><a class="text-decoration-none" href="e-book-services.html">E-Book Services</a></li>
+                            </ul>
+
+                        </li>
+            <li class="nav-item">
+                <a class="nav-link " href="blog.html">
+                    Blog
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="testimonials.html">
+                    Testimonials
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="contact-us.html">
+                    Contact Us
+                </a>
+            </li>
+
+
+        </ul>
+    </div>
+</div>
+<!-- end --><!-- Footer End -->
+</body>
+
+</html>

@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Detail</title>
+    <!-- Favicon -->
+<link rel="icon" type="image/png" href="assets/images/favicon.png" />
+<!-- bootstrap 5.1 -->
+<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+<!-- Style css -->
+<link rel="stylesheet" href="assets/css/style.css" />
+<!-- Responsive css -->
+<link rel="stylesheet" href="assets/css/responsive.css" />
+<!-- AOS Animation -->
+<link rel="stylesheet" href="assets/css/aos.css" />
+<!-- Slick Carousel -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+
+<!-- Font Awesome -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" /> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+
+
+
+
+</head>
+
+<body>
+    <!-- header -->
+    <!-- Preloader -->
+<!--<div class="preloader" id="preloader">-->
+<!--    <img src="assets/images/canvas-logo.webp" alt="Preloader" class="logo">-->
+<!--    <div class="balls">-->
+<!--        <div class="ball"></div>-->
+<!--        <div class="ball"></div>-->
+<!--        <div class="ball"></div>-->
+<!--        <div class="ball"></div>-->
+<!--        <div class="ball"></div>-->
+<!--    </div>-->
+<!--</div>-->
+<!-- end -->
+<header class="header">
+    <nav class="navbar navbar-expand-lg navbar-dark stroke bg-transparent">
+        <div class="container">
+            <a class="navbar-brand" href="index.html" data-aos="fade-right">
+                <img src="assets/images/canvas-logo.webp" alt="canvas logo"/>
+            </a>
+            <!-- Offcanvas Full Page -->
+            <button class="navbar-toggler d-xl-block d-none" data-aos="fade-left" type="button"
+                data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                <img src="assets/images/trigger.webp" alt="Trigger"/>
+            </button>
+            <!-- end -->
+
+            <!-- Offcanvas Mobile -->
+            <button class="navbar-toggler d-xl-none d-block" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="offcanvas Navbar" data-aos="zoom-in">
+                <img src="assets/images/trigger.webp" alt="Trigger"/>
+            </button>
+            <!-- end -->
+
+        </div>
+    </nav>
+</header>
+<!--Popup-->
+<div class="modal fade" id="exampleModalToggle" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!--<div class="modal-header">-->
+      <!--  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>-->
+      <!--  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>-->
+      <!--</div>-->
+      <div class="modal-body popu">
+        <div class="">
+                    <div>
+                        <h4>Lets Start Today!</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <form action="https://waycrosstech.com/signup.php" method="POST">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Full Name" name="name" pattern="[A-Za-z ]+" required/>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Email" pattern="[^\s@]+@[a-zA-Z]+[^0-9@]+\.[cC][oO][mM]$" name="email" required/>
+                            </div>
+                            <div class="mb-3">
+                                <input type="number" class="form-control" placeholder="Phone Number" name='phone' 
+                                onkeypress="if(this.value.length==12) return false;" required/>
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Company" name='service' pattern="[A-Za-z ]+" required/>
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" rows="3" placeholder="Message" name="msg" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-theme w-100 mt-3">Submit</button>
+                        </form>
+                    </div>
+                </div>
+      </div>
+      <!--<div class="modal-footer">-->
+      <!--  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+      <!--  <button type="button" class="btn btn-primary">Save changes</button>-->
+      <!--</div>-->
+    </div>
+  </div>
+</div><!--end-->
+    <!-- End header -->
+
+    <!-- blog detail -->
+    <section class="blog-detail">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="left" data-aos="fade-down">
+                        <span>Oct 06, 2023</span>
+                        <h1>Unveiling the Magic: Exploring the Diverse World of Animation Services</h1>
+                        <p>Author: Gavin Foster</p>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-xs-12">
+                    <div class="right" data-aos="fade-up">
+                        <img src="assets/images/blog-3.webp" class="w-100"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End section -->
+
+    <!-- Blog Paragraph -->
+    <section class="blog-para">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="blog-para-sec" data-aos="zoom-in">
+                        <p>Do you wish to pursue a professional career path within animation? This informative blog will provide an in-depth analysis of professional animators' operational procedures and animation services delivery methods. Additionally, strategies for launching a prosperous profession in the animation industry will be covered. This article will discuss the essential qualifications, educational background, and the pivotal phases required to obtain a successful career as a professional animator. 
+                        </p>
+                        <h2>Beginning With The Article About The Magical World Of Animation</h2>
+                        <p>
+                            Marketing and advertising have progressed beyond introductory text and images in the digital age. Brand promotion is occupied with dynamic, captivating content, and 3D product animation has emerged as an effective medium for attracting and retaining audiences' attention. This comprehensive guide to 3D animation services of products will cover their definitions and multiple stuff to learn about, as well as how to select the most suitable service provider.
+
+                        </p>
+                        <h3>The Animation System And Animation Studios</h3>
+                        <p>
+                           Animation is a vast field comprising numerous subfields and aspects. Before proceeding, examining a few of the procedural initiatives studios undertake when producing the animated films you adore is beneficial.
+                        Consider an animation studio a complex machine composed of numerous moving elements. In this instance, the components comprise departments, individuals, and endeavors, which assemble to form visual narratives. The assembly line of this apparatus, which we shall refer to as the Film Production process, can be divided into three major categories.
+
+                        </p>
+                        <p><b>Pre-production</b>, the initial stage of a film, encompasses many activities, including but not limited to storyboarding, script composition, and visual development. A considerable proportion of the narrative's elements are constructed within it.
+                        </p>
+                        <p><b>The production</b> phase comprises a variety of tasks, including rigging, character modeling, and animation. The most substantial construction occurs in this stage, given that the narrative is established from these preliminary components.</p>
+                        <p><b>Post-production</b>, the concluding stage, encompasses color correction, visual effects, and compositing. This concluding phase concerns the complexities, the enhancement of the storyline, and its preparation for the target audience.
+                        </p>
+                        <p>In a collaborative environment, the studio ensures that decisions made in one area can have far-reaching ramifications for subsequent teams, even though departments and individuals may specialize in particular domains.</p>
+                        <p>Although the animation component of the film production system is the main focus of this article, readers are encouraged to further their understanding of the other elements as well.
+                        </p>
+                        <h3>The Function Of Providers Of Animation Services</h3>
+                        <p>
+                           As artists, animators employ the on-screen characters to convey a visual narrative instead of implements such as paintbrushes. The animators bring characters to life using the script and the director's vision. If executed proficiently, the audience may need to recognize that they are observing a digital automaton, not a living, breathing individual.
+                        </p>
+                        <p>
+                          Occasionally, animators perform as acrobats, entertainers, and actors within the same scene. Their responsibility is to develop engaging and dynamic character performances for motion pictures, television programs, video games, and advertisements.
+                        </p>
+                        <p><b>In general, animators can be classified into two primary categories.</b></p>
+                        <p>2D animators tell stories using contemporary digital tools or traditional, hand-drawn techniques. They implement the fundamental principles of appeal, cadence, and spacing to imbue life into characters on-screen.
+Like 2D animators, 3D animators utilize 3D software to complete the same tasks. 
+</p>
+<p>Furthermore, by capitalizing on the functionalities of contemporary software, 3D animators transcend the boundaries of animation by employing its foundational principles. These animators are responsible for bringing to life everything from spacecraft to dragons to main characters.</p>
+<p>2D and 3D animation services providers employ the same principles but distinct tools at their core.</p>
+                        <h3>Let's have a closer look at 3D animators:</h3>
+                        <p>
+                          Character animators in 3D bring characters to life on the big screen. There are numerous jobs they can pursue. However, the following are the most in-demand:
+                        </p>
+                        <p>Feature film animators generate appealing and entertaining performances for films and television shows. These animators are behind notable character performances in films such as Frozen, Spider-Man: Into the Spider-Verse, and How to Train Your Dragon.</p>
+                        <p>Typically, game animators concentrate on body mechanics and physical performances, emphasizing weight and impact. They develop dynamic animation that enhances both gaming and storyline.</p>
+                        <p>VFX animators use varied degrees of exaggeration and subtlety to animate digital figures alongside their live-action counterparts. They frequently bring to life superheroes, massive machines, and mythical animals.
+                        </p>
+                        <h3>Job Opportunities In The Animation Industry</h3>
+                        <p>
+                         We discussed the film production system and the three stages of production earlier in this article: pre-production, display, and post-production. We love animation, but animators will tell you that their job is collaborative and that it takes a team of skilled people to bring movies, video games, and other projects to life.
+                        </p>
+                        <p>The following is a summary of some specific job titles you might come across in an animation production environment.
+                        </p>
+                        <h4><b>Title positions at pre-production: </b></h4>
+                        <p>
+                          Visual development artists hold the following positions: art director, backdrop artist, character designer, concept artist, effects designer, environment designer, previs artist, and story artist.
+                        </p>
+                        <h4><b>Titles of production positions: </b></h4>
+                        <p>Character animator, textile simulation artist, groom artist, layout artist, layout TD, lighting artist, lighting supervisor, matte painter, modeling supervisor, rigging artist, shading TD, shading/texture supervisor, and texture artist are some positions in the CG industry.</p>
+                        <h4><b>Examples of post-production work titles are:</b></h4>
+                        <p>Visual effects administrators oversee positions such as 3D renderer, compositor, editor, motion graphics artist, roto artist, sound effects artist, and VFX artist.</p>
+                        <p>Keeping a watch on job listings is the most effective method for obtaining information regarding the necessities and specialized abilities required for different categories of animation positions. Most specify the requirements, including any specialized training or experience that may be needed, in great detail.<br>
+                            Numerous resources, including the Animation Guild, individual studio websites, LinkedIn, and countless other job-searching websites, provide access to job listings.
+                            </p>
+                            <p>Is 3D animation a viable profession? While we hold this view, you must verify that it suits you! This page contains additional information regarding salaries and industry expansion. We also examined the animation careers of a few of our students and mentors in depth, including why they are so enthusiastic about their work.
+                            </p>
+                            <p>Is a degree required to obtain employment in animation? No! Positively, a bachelor's or master's degree is not a prerequisite for work as a professional animator. Instead of degrees, feature film and game studios are more concerned with your skill set.
+                            </p>
+                            <p>Do you maintain proper body mechanics? Can you perform a variety of scenarios and emotions? One showcases their abilities to prospective employers by curating a demo reel. Demo reels are typically 15 to 30 seconds long and consist of brief segments highlighting your finest animated work.</p>
+                            <p>For additional details regarding the criteria that recruiters consider when evaluating a demo reel, kindly consult the advice provided by Shawn Kelly, co-founder of Animation Mentor. Extensive blog posts and videos further elaborate on this topic.</p>
+                            <p>Examine the Student Showcase on Animation Mentor, a school presentation reel. The Showcase exhibits the most exceptional projects produced by our students, most of whom commenced our program with no prior experience in animation.</p>
+                        <h3>What Lies Ahead? Expertise Of Animating</h3>
+                        <p>A multitude of animation services, institutions, and programs can be found throughout the world. Animation Mentor, for instance, provides novice animators with a six-course animation training program in which they can acquire the knowledge and skills necessary to become professionals.</p>
+                        <p>The courses expand upon the 12 fundamental principles of animation, requiring students to produce increasingly intricate and dynamic assignments as they advance through the curriculum.</p>
+                        <p>Industry experts from studios such as Disney, Pixar, DreamWorks, and BlueSky instruct each course. They will provide constructive criticism and guidance on your animation to ensure your success.</p>
+                        <p>You will become a member of a supportive, virtual community of peers with similar interests and goals, with whom you will exchange assignments, receive constructive criticism and encouragement, and forge connections and friendships that will last a lifetime.</p>
+                        <p>You will also be granted continuous access to professional devices following graduation, which you may utilize for assignments and your demo reel.</p>
+                        <p>The series requires a total of eighteen months to complete. After that, numerous seminars are held to instruct additional specialized skills.
+                            Animation is an art form that requires diligence, enthusiasm, and skill. It is impossible to fake passion; one either possesses it or does not; the remainder is merely effort. The real key to success as an animator is that increasing the time you invest in the craft will directly impact your skill development.
+                            </p>
+                        <h3>Looking For Professional 2d And 3d Animation Services </h3>
+                        <p>Whether you are an entrepreneur or a digital marketing student, you will require animation services to boost your marketing strategy, and this is where WayCross Tech’s expertise steps in with top-notch 2d and 3d animation services for pupils worldwide.</p>
+                        <h3>A Guide To Animating For Beginners</h3>
+                        <p>In contrast to conventional 2D animators, 3D animators operate on computers and, in essence, do not require drawing proficiency to perform their duties. Nevertheless, acquiring fundamental drawing abilities can assist you in concept sketching and organizing before transferring them to the computer, ultimately conserving time.</p>
+                        <p>To effectively animate characters by causing them to move, act, and react, animators would benefit from a fundamental understanding of human anatomy and movement. We highly recommend several excellent books that contain exercises and instructions to help you begin learning immediately.</p>
+                        <p>Those interested in learning 3D animation for novices should watch the free video tutorials that Bobby Beck, one of our co-founders, teaches. In addition to establishing a school to educate future generations of animators, he was a principal animator on Finding Nemo! and Monsters Inc.</p>
+                        <p>Beck will guide you on acquiring a student version of Autodesk Maya's software and downloading a complimentary Maya structure, enabling you to complete the exercises and generate a basic animation. Additionally, our alums and mentors have penned many positive articles on the Animation Mentor Blog, which combines animation strategies and techniques.</p>
+                        <h3>Tools for 2D animation software:</h3>
+                        <h4>Harmony of Toon Booms</h4>
+                        <p>Harmony by Toon Boom is an animation application that novice and seasoned animators can utilize. It is suggested for participation in our 2D Animation for Novices Workshop.</p>
+                        <h4>Adobe Animate CC</h4>
+                        <p>Adobe designed this software to be both user-friendly for novices and sophisticated enough to cater to the needs of experienced users.</p>
+                        <h4>Character Animator by Adobe</h4>
+                        <p>The primary objective of this software is to simplify facial animation greatly. It accomplishes this by establishing a connection with your webcam and generating facial expression-based energy for a 2D character. Although this is an excellent resource for novices, we still advise studying facial animation independently.</p>
+                        <h4>After Effects by Adobe</h4>
+                            <p>This software is utilized for character animation and rigging in the industry</p>
+                            <h4>Tools for 3D animation software:</h4>
+                            <h4></h4>
+                            <p>Maya is the gold standard among 3D animation programs. Understanding how to use this tool is essential for aspiring animators and studios, as it is the instrument of choice for professionals in the field. Although licenses can be costly, Autodesk provides a free version for educational purposes.</p>
+                            <h4>Blender</h4>
+                            <p>Blender is gaining popularity as a free 3D animation application of high quality. This software has recently expanded to incorporate innovative features and enhanced usability. If Maya's price prohibits purchasing it, this is your alternative.</p>
+                            <h4>Houdini</h4>
+                            <p>Houdini is renowned for enabling designers to produce visually astounding effects. Although somewhat more difficult to master than Maya, a complimentary version is accessible to students.</p>
+                            <h4>Cinema 4d</h4>
+                            <p>Houdini, marketed as one of the most straightforward tools for 3D modeling and visual effects, is beneficial for those who wish to add realistic effects to live-action films.</p>
+                            <h4>Autodesk 3ds Max</h4>
+                            <p>3DS Max is an additional Autodesk application encompassing several animation pipeline stages. It is most renowned for its modeling and game animation.</p>
+                            <h4>Superior Animation Equipment:</h4>
+                            <h4>A sketching tablet</h4>
+                            <p>The purpose of a drawing tablet is to generate digital designs. Whether your goal is to become a concept artist or sketch a scene for a storyboard, this is an absolute necessity. Wacom produces a number of the most well-known products in this industry.</p>
+                            <h4>A stable computer</h4>
+                            <p>Scenes with intricate props, atmospheric lighting, and numerous moving objects require much processing power to animate. Rapid memory and a powerful graphics card are required. When unsure what to purchase, high-end or mid-range gaming PCs should contain the necessary components. Numerous insightful articles on this website discuss the top computers for animation.</p>
+                            <h4>Themes and Animation Resources</h4>
+                            <p>There are a variety of resources at one's disposal, including books, webinars, videos, and more.</p>
+                            <h4>Animation Books For Novices And Pros</h4>
+                            <p>Gain knowledge from the origins of animation with the aid of these books authored by renowned animators, in addition to those written by our esteemed mentors and the school's architects.</p>
+                            <h4>Standard Animations</h4>
+                            <p>- Shamus Culhane's Animation: From Script to Screen; Preston Blair's Cartoon Animation (The Collector's Series);</p>
+                            <p>- Walt Stanchfield authored Drawn to Life: Twenty Golden Years of Disney Master Classes, Volumes I and II: The Walt Stanchfield Lectures.</p>
+                            <p>- Ollie Johnston and Frank Thomas authored The Illusion of Life.</p>
+                            <h4>Professional Animation Resources</h4>
+                            <p>- Shawn Kelly and Animation Mentors authored volumes I and II of Animation Tips and Tricks.</p>
+                            <p>- Wayne Gilbert, Carlos Baena, Keith Sintay, and Aaron Gilman</p>
+                            <p>- The Aardman Book of 3D Animation: Cracking Animation, by Peter Lord and Brian Sibley</p>
+                            <p>- Ed Harriss's How to Get a Job in Computer Animation</p>
+                            <h4>Drawing and Anatomy</h4>
+                            <p>- Stephen Rogers Peck's Artist's Atlas of Human Anatomy</p>
+                            <p>- Desmond Morris authored "Manwatching: A Field Guide to Human Behavior."</p>
+                            <p>- Wayne Gilbert's Simplified Drawing for Planning Animation</p>
+                            
+                            <h4>Final Thoughts</h4>
+                            <p>There is a variety of material in the animation industry, working in animation studios and on games and movies written by professional animators. You'll also find in-depth articles on the importance of demo reels, as well as webinars on how to animate specific challenges like animating realistic creatures or fighting scenes, or our series on how to animate the six basic emotions like anger, fear, happiness, sadness, surprise, and disgust, to name a few.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end -->
+
+    <!-- banner sec -->
+    <section class="banner-sec">
+    <div class="container">
+        <div class="row align-items-center justify-content-center text-center">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="section-title" data-aos="zoom-in">
+                    <h2>Upscale Your Backend Development Professionally!</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-center justify-content-center">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                <a href="#" class="btn btn-white-theme" data-aos="fade-up" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Get Started Now</a>
+            </div>
+        </div>
+    </div>
+</section>    <!-- end -->
+
+    <!-- talk business -->
+    <section class="talk-business">
+    <div class="container">
+        <div class="row align-items-center justify-content-center text-center">
+            <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                <h3 class="title" data-aos="zoom-in">Let’s talk business!</h3>
+            </div>
+        </div>
+        <div class="row d-flex align-items-center justify-content-center" data-aos="flip-left">
+            <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                <form method="POST" action="https://waycrosstech.com/talk-business" class="needs-validation">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-body">
+                                <label>You are</label>
+                                <input type="text" class="form-control" name="agency" placeholder="An agency"
+                                    required pattern="[A-Za-z ]+">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-body">
+                                <label>Interested in </label>
+                                <input type="text" class="form-control" name="interested"
+                                    placeholder="Design Services" required="" pattern="[A-Za-z ]+">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-body">
+                                <label>Your name is </label>
+                                <input type="text" class="form-control" name="name" placeholder="john"
+                                    required="" pattern="[A-Za-z ]+">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-body">
+                                <label>Your company name is </label>
+                                <input type="text" class="form-control" name="company" placeholder="Microsoft"
+                                    required="" pattern="[A-Za-z ]+">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-body">
+                                <label>Your contact no is </label>
+                                <input  type="number" class="form-control" name="phone"
+                                    placeholder="+1 888 331-7357" required="" onkeypress="if(this.value.length==12) return false;">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-body">
+                                <label>Your email id </label>
+                                <input type="email" class="form-control" name="email"
+                                    placeholder="info@company.com" pattern="[^\s@]+@[a-zA-Z]+[^0-9@]+\.[cC][oO][mM]$" required="">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-body">
+                                <label>How did you hear about us </label>
+                                <input type="text" class="form-control" name="hear" placeholder="Google" pattern="[A-Za-z ]+"
+                                    required="">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-body">
+                            <button type="submit" class="btn btn-submit mt-4">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+</section>    <!-- end -->
+
+    <!-- footer -->
+    <footer class="footer">
+    <div class="container">
+        <div class="row justify-content-around">
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                <div class="footer-logo">
+                    <a href="index.html"><img src="assets/images/canvas-logo.webp" alt="canvas-logo"/></a>
+                    <p>
+                        Way Cross Tech is a 360 solution to all your digital problems, we have experienced developers, marketeers, designers, and animators right here at your disposal to use as per your liking. In addition to creating scalable and secure strategies and plans we can also help with migration, upgrades and integration of new strategies. We offer a complete digital solution that is able to handle even the most extreme and complex cases easily and swiftly. 
+                    </p>
+                    <p><a href="mailto:info@example.com"><i class="fa fa-envelope"></i> info@example.com</a>
+                    </p>
+                    <a href="#" target="_blank"><img src="assets/images/trustpilot-img.webp" alt="trustpilot-img"/></a>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-12 col-xs-12 col-6">
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="who-we-are.html">Who We Are</a></li>
+                        
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-12 col-xs-12 col-6">
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="designing-services.html">Designing Services</a></li>
+                        <li><a href="web-development-services.html">Web Development</a></li>
+                        <li><a href="app-development-services.html">App Development</a></li>
+                        <li><a href="animation-services.html">Animation Services</a></li>
+                        <li><a href="digital-marketing-services.html">Digital Marketing</a></li>
+                        <li><a href="e-book-services.html">e-book services</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-12 col-xs-12 col-6">
+                <div class="footer-links fr">
+                    <h4>Contact</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="tel:1234567890"> 1234567890</a></li>
+                        <!-- <li><a href="https://wa.me/1234567890"><i class="fa-brands fa-whatsapp"></i> +1234567890</a></li> -->
+                        <li><a href="#"> 407 Lincoln Rd St 6H, Miami Beach, FL 33139</a></li>
+                        <li><a href="javascript:void(Tawk_API.toggle())"> Start Live Chat</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-12 col-xs-12 col-6 frman">
+                <div class="footer-links text-m-center">
+                    <h4>Follow Us</h4>
+                    <div class="social">
+                        <p class="mb-0">
+                            <a href="#" target="_blank" aria-label="facebook"><i
+                                    class="fa-brands fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#" target="_blank" aria-label="linkedin"><i
+                                    class="fa-brands fa-linkedin-in" target="_blank" aria-hidden="true"></i></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="footer-bottom">
+    <div class="container">
+        <div class="row align-items-center mt-0 pt-2 pb-2">
+            <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-xs-12">
+                <div class="footer-bootom-links">
+                    <span>© Copyright 2023 - 2024 Way Cross Tech. All rights reserved.</span>
+
+                </div>
+            </div>
+            <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-xs-12">
+                <div class="social-link text-end">
+                    <p class="mb-0">
+                        <a href="terms-and-conditions.html">Terms &amp; Conditions</a>
+                        <a href="privacy-policy.html">Privacy Policy</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Website JS -->
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<!-- Slick Carousel JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<!--gsap-->
+<!--<script src="https://unpkg.com/gsap@3.9.0/dist/gsap.min.js"></script>-->
+<!--<script src="https://unpkg.com/gsap@3.9.0/dist/ScrollTrigger.min.js"></script>-->
+<!-- Custom JS -->
+
+<!-- AOS JS -->
+<script src="assets/js/aos.js"></script>
+
+<script src="https://unpkg.com/%40lottiefiles/lottie-player%402.0.3/dist/lottie-player.js"></script>
+<script src="https://unpkg.com/%40lottiefiles/lottie-interactivity%401.6.2/dist/lottie-interactivity.min.js"></script>
+<script src="assets/js/main.js"></script>
+<script>
+LottieInteractivity.create({
+    player: '#firstLottie',
+
+    actions: [{
+        visibility: [0, 3.8],
+        type: 'seek',
+        frames: [0, 300],
+    }, ]
+});
+</script>
+
+<script>
+AOS.init({
+    duration: 2000
+});
+</script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>-->
+<!--<script>-->
+<!--var textWrappers = document.querySelectorAll('.coy-rt h1');-->
+<!--textWrappers.forEach((textWrapper) => {-->
+<!--    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<label class='letter'>$&</label>");-->
+
+<!--    anime.timeline({-->
+<!--            loop: true-->
+<!--        })-->
+<!--        .add({-->
+<!--            targets: textWrapper.querySelectorAll('.letter'),-->
+<!--            scale: [4, 1],-->
+<!--            opacity: [0, 1],-->
+<!--            translateZ: 0,-->
+<!--            easing: "easeOutExpo",-->
+<!--            duration: 500,-->
+<!--            delay: (el, i) => 50 * i-->
+<!--        })-->
+<!--        .add({-->
+<!--            targets: textWrapper,-->
+<!--            opacity: 0,-->
+<!--            duration: 1000,-->
+<!--            easing: "easeOutExpo",-->
+<!--            delay: 1000-->
+<!--        });-->
+<!--});-->
+
+<!--var textWrappers = document.querySelectorAll('.coy-rt h3');-->
+<!--textWrappers.forEach((textWrapper) => {-->
+<!--    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<label class='letter'>$&</label>");-->
+
+<!--    anime.timeline({-->
+<!--            loop: true-->
+<!--        })-->
+<!--        .add({-->
+<!--            targets: textWrapper.querySelectorAll('.letter'),-->
+<!--            scale: [4, 1],-->
+<!--            opacity: [0, 1],-->
+<!--            translateZ: 0,-->
+<!--            easing: "easeOutExpo",-->
+<!--            duration: 500,-->
+<!--            delay: (el, i) => 50 * i-->
+<!--        })-->
+<!--        .add({-->
+<!--            targets: textWrapper,-->
+<!--            opacity: 0,-->
+<!--            duration: 1000,-->
+<!--            easing: "easeOutExpo",-->
+<!--            delay: 1000-->
+<!--        });-->
+<!--});-->
+<!--</script>-->
+
+
+
+<!-- Nav Dropdown -->
+<script>
+$(document).ready(function() {
+    $(".service-dropdown").click(function() {
+        $(".main-drop-down").toggle("slow");
+    });
+});
+</script>
+<!-- end -->
+<!-- Hover Image and Mouse Move -->
+<!--<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>-->
+<!--<script>-->
+<!--$(document).ready(function() {-->
+<!--    $('.trigger').hover(function() {-->
+<!--        var imageId = $(this).data('image');-->
+<!--        $('#' + imageId).fadeIn();-->
+
+<!--        $(document).on('mousemove', function(e) {-->
+<!--            $('#' + imageId).css({-->
+<!--                left: e.pageX - $('#' + imageId).width() / 2,-->
+<!--                top: e.pageY - $('#' + imageId).height() / 2-->
+<!--            });-->
+<!--        });-->
+<!--    }, function() {-->
+<!--        $('.hover-img').fadeOut();-->
+<!--        $(document).off('mousemove');-->
+<!--    });-->
+
+     <!--Prevent blinking when hovering over the thumbnail icon-->
+<!--    $('.image-link').hover(function() {-->
+<!--        $(this).find('.hover-img').stop(true, true).fadeIn();-->
+<!--    }, function() {-->
+<!--        $(this).find('.hover-img').stop(true, true).fadeOut();-->
+<!--        $(document).off('mousemove');-->
+<!--    });-->
+<!--});-->
+<!--</script>-->
+<!-- end -->
+
+<!-- Offcanvas Full Page -->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <div class="ofcanvas_bdy">
+            <div class="ofcanvas1">
+                <div class="logonavbar2" data-aos="fade-zoom-in">
+                    <img src="assets/images/canvas-logo.webp" alt="canvas logo"/>
+                   
+                </div>
+            </div>
+            <div class="ofcncls2">
+                <div class="main_navbar">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="who-we-are.html">Who We Are</a></li>
+                        <li><a href="#" class="service-dropdown">Services</a>
+                            <ul class="main-drop-down">
+                                <li><a href="designing-services.html">-Designing Services</a></li>
+                                <li><a href="web-development-services.html">-Web Development</a></li>
+                                <li><a href="app-development-services.html">-App Development</a></li>
+                                <li><a href="animation-services.html">-Animation Services</a></li>
+                                <li><a href="digital-marketing-services.html">-Digital Marketing</a></li>
+                                <li><a href="e-book-services.html">-e-book services</a></li>
+                                
+                            </ul>
+
+                        </li>
+
+
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="contact-us.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="main_navbar_social_icons">
+                    <ul>
+                        <li><a href="#" target="_blank" aria-label="facebook"><i class="fa-brands fa fa-facebook fa-fade"></i></a></li>
+                        <li><a href="mailto:info@example.com" target="_blank"><i class=" fa fa-envelope fa-fade"></i></a></li>
+                        <!--<li><a href=""><i class="fa-brands fa fa-twitter fa-fade"></i></a></li>-->
+                        <li><a href="#" target="_blank" aria-label="linkedin"><i class="fa-brands fa fa-linkedin fa-fade"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end -->
+
+<!-- Offcanvas Mobile Side Bar -->
+<div class="offcanvas offcanvas-start offcanvas-mobile" tabindex="-1" id="offcanvasNavbar"
+    aria-labelledby="offcanvasNavbarLabel">
+    <div class="offcanvas-header">
+        <a href="#"><img src="assets/images/canvas-logo.webp" alt="logo"></a>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body mobile-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="who-we-are.html">
+                    Who We Are
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="service-dropdown text-decoration-none">Services</a>
+                            <ul class="main-drop-down" style="display:none">
+                                <li><a class="text-decoration-none" href="designing-services.html">Designing Services</a></li>
+                                <li><a class="text-decoration-none" href="web-development-services.html">Web Development</a></li>
+                                <li><a class="text-decoration-none" href="app-development-services.html">App Development</a></li>
+                                <li><a class="text-decoration-none" href="animation-services.html">Animation Services</a></li>
+                                <li><a class="text-decoration-none" href="digital-marketing-services.html">Digital Marketing</a></li>
+                                <li><a class="text-decoration-none" href="e-book-services.html">E-Book Services</a></li>
+                            </ul>
+
+                        </li>
+            <li class="nav-item">
+                <a class="nav-link " href="blog.html">
+                    Blog
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="testimonials.html">
+                    Testimonials
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="contact-us.html">
+                    Contact Us
+                </a>
+            </li>
+
+
+        </ul>
+    </div>
+</div>
+<!-- end -->    <!-- end -->
+
+</body>
+</html>

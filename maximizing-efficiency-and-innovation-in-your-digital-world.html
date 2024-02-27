@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Detail</title>
+    <!-- Favicon -->
+<link rel="icon" type="image/png" href="assets/images/favicon.png" />
+<!-- bootstrap 5.1 -->
+<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+<!-- Style css -->
+<link rel="stylesheet" href="assets/css/style.css" />
+<!-- Responsive css -->
+<link rel="stylesheet" href="assets/css/responsive.css" />
+<!-- AOS Animation -->
+<link rel="stylesheet" href="assets/css/aos.css" />
+<!-- Slick Carousel -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+
+<!-- Font Awesome -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" /> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+
+
+
+
+</head>
+
+<body>
+    <!-- header -->
+    <!-- Preloader -->
+<!--<div class="preloader" id="preloader">-->
+<!--    <img src="assets/images/canvas-logo.webp" alt="Preloader" class="logo">-->
+<!--    <div class="balls">-->
+<!--        <div class="ball"></div>-->
+<!--        <div class="ball"></div>-->
+<!--        <div class="ball"></div>-->
+<!--        <div class="ball"></div>-->
+<!--        <div class="ball"></div>-->
+<!--    </div>-->
+<!--</div>-->
+<!-- end -->
+<header class="header">
+    <nav class="navbar navbar-expand-lg navbar-dark stroke bg-transparent">
+        <div class="container">
+            <a class="navbar-brand" href="index.html" data-aos="fade-right">
+                <img src="assets/images/canvas-logo.webp" alt="canvas logo"/>
+            </a>
+            <!-- Offcanvas Full Page -->
+            <button class="navbar-toggler d-xl-block d-none" data-aos="fade-left" type="button"
+                data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                <img src="assets/images/trigger.webp" alt="Trigger"/>
+            </button>
+            <!-- end -->
+
+            <!-- Offcanvas Mobile -->
+            <button class="navbar-toggler d-xl-none d-block" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="offcanvas Navbar" data-aos="zoom-in">
+                <img src="assets/images/trigger.webp" alt="Trigger"/>
+            </button>
+            <!-- end -->
+
+        </div>
+    </nav>
+</header>
+<!--Popup-->
+<div class="modal fade" id="exampleModalToggle" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!--<div class="modal-header">-->
+      <!--  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>-->
+      <!--  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>-->
+      <!--</div>-->
+      <div class="modal-body popu">
+        <div class="">
+                    <div>
+                        <h4>Lets Start Today!</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <form action="https://waycrosstech.com/signup.php" method="POST">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Full Name" name="name" pattern="[A-Za-z ]+" required/>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Email" pattern="[^\s@]+@[a-zA-Z]+[^0-9@]+\.[cC][oO][mM]$" name="email" required/>
+                            </div>
+                            <div class="mb-3">
+                                <input type="number" class="form-control" placeholder="Phone Number" name='phone' 
+                                onkeypress="if(this.value.length==12) return false;" required/>
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Company" name='service' pattern="[A-Za-z ]+" required/>
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" rows="3" placeholder="Message" name="msg" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-theme w-100 mt-3">Submit</button>
+                        </form>
+                    </div>
+                </div>
+      </div>
+      <!--<div class="modal-footer">-->
+      <!--  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+      <!--  <button type="button" class="btn btn-primary">Save changes</button>-->
+      <!--</div>-->
+    </div>
+  </div>
+</div><!--end-->
+    <!-- End header -->
+
+    <!-- blog detail -->
+    <section class="blog-detail">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="left" data-aos="fade-down">
+                        <span>Aug 22, 2023</span>
+                        <h1>App Services Unveiled: Maximizing Efficiency and Innovation in Your Digital World</h1>
+                        <p>Author: Brian Nguyen</p>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-xs-12">
+                    <div class="right" data-aos="fade-up">
+                        <img src="assets/images/blog-1.webp" class="w-100"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End section -->
+
+    <!-- Blog Paragraph -->
+    <section class="blog-para">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="blog-para-sec" data-aos="zoom-in">
+                        <p>In the digital landscape today, businesses can enhance their efficiency and could become a pivotal role for developers and enterprises alike. As technology advances, the demand for better applications has maximized. It is not only the productivity of a firm that is crucial for success but also how productive and time saving it is. These platforms can vary from project management to communication and are designed to streamline your tasks and for you to focus on what actually matters.
+                        </p>
+                        <h2>App Development Services for Efficiency</h2>
+                        <p>
+                            In the continuously-growing ecosystem, taking custom mobile app development services that resonate with the target audience is more crucial than ever before. But each app is different from one another and so is the method used for creating them. Let’s explore some prominent app development ways and see how each contributes to streamlining the process for you before looking at how app  plays out in the digital world
+                        </p>
+                        <h3>Best app development frameworks used in 2023</h3>
+                        <h4>Native app development</h4>
+                        <p>
+                           Creating a native app is like creating a mobile service app specifically on a given operating system like Android or iOS. These apps can work flawlessly and enable integration with the given operating capabilities by utilizing platform-specific languages for example the Java/Kotlin for Android and Swift for iOS. Because the software works directly with the device’s hardware, the method is responsive with a simpler user interface. They also have better access to hardware features like the camera functionality and the location services, which improves the overall user experience. 
+                        </p>
+                        <h4>Hybrid app development</h4>
+                        <p>
+                            Hybrid app development is the middle road between the native and web app development. These apps are made using web tech like CSS, JavaScript, HTML to interoperate with many platforms. The program is usually made in web tech and then wrapped into a native container, helping with native app installation. The main benefit of these kinds of apps is cost cutting. Different plugins and frameworks are also available to bridge the gap between web and native functionality to ease user interaction.
+                        </p>
+                        <h4>Web App Development</h4>
+                        <p>
+                            Web app development services consist of building applications that work directly in a web browser. These apps are independent of any platform and can be accessible using a URL, making them compatible with almost any device. These apps don’t require any installation that increases the user experience. They are also easy to maintain and update and they also remove the app store approvals, ensuring a quicker deployment and better user reach. 
+
+                        </p>
+                        <h4>How Mobile Apps Act as a Catalyst in Digital Transformation?</h4>
+                        <p>
+                           In the past, people often saw mobile applications as separate from digital transformation. However, this is not entirely true. In fact, mobile apps have the potential to accelerate digital transformation and offer numerous advantages to businesses. Let's delve into the ways in which mobile apps can drive your digital transformation efforts and yield benefits for your organization: <br>
+
+                        A digital representation of your brand: Mobile apps are not only able to transform businesses, but they also open up a whole new realm of possibilities. They help companies stay connected with their current and potential customers. Mobile apps serve as a digital representation of your brand, giving users their first impression and experience.
+
+                        </p>
+                        <h4>Improved Customer interaction:</h4>
+                        <p>
+                           With customers increasingly relying on their smartphones, mobile apps provide a convenient platform for businesses to engage with them. This enhances customer interaction and builds stronger relationships.
+
+                        </p>
+                        <h4>Enhancing Experience</h4>
+                        <p>
+                           Businesses are constantly seeking ways to elevate the customer experience through their digital transformation efforts. One powerful tool for achieving this is the use of mobile applications. By leveraging mobile apps, companies can send targeted and customized messages to customers, foster engagement with consumers, and discover novel touchpoints that can enhance the overall customer experience. 
+                        </p>
+                        <h4>Role of Mobile Apps in Digital Transformation</h4>
+                        <p>While custom mobile app development services were once seen as a separate aspect of digital transformation, this notion is flawed. In reality, mobile apps have the ability to accelerate the pace of digital transformation and provide numerous advantages for businesses. Let's delve into some of the main ways in which mobile apps can propel and bolster your digital transformation initiatives:</p>
+                        <h4>The digital representation of your organization:</h4>
+                        <p>Mobile services apps have the incredible ability to not only revolutionize businesses, but also unlock countless previously unheard of opportunities. They allow organizations to stay connected with their current and potential customers, making them the perfect digital representation of your organization. Mobile apps provide the crucial first impression to potential users, showcasing your business in the best possible light. </p>
+                        <h4>Incorporating AI-powered Chatbots</h4>
+                        <p>The addition of Chatbots powered by Artificial Intelligence in mobile apps has completely transformed the concept of customer service. These intelligent tools assist organizations in providing efficient and seamless support to their customers, taking their customer service to new heights.</p>
+                        <h4>Enterprise mobility</h4>
+                        <p>Effective mobility plays a critical role in digital transformation, allowing organizations to connect with and support their consumers anytime, anywhere. By developing mobile apps specifically for their enterprise needs, businesses can enhance efficiency and productivity.</p>
+                        <h4>Brand recognition and awareness</h4>
+                        <p>Establishing brand recognition and raising awareness are vital for success. A mobile app serves as the public face of your brand, making it essential to have one that aligns with your image and reputation. Setting your app apart from competitors through unique features, user experience, and design will naturally attract more downloads and elevate your brand in the market.</p>
+                        <h4>Operational efficiency</h4>
+                        <p>On top of improving brand awareness, mobile apps can significantly increase operational efficiency for businesses. Utilizing mobile technology can optimize processes and streamline operations, leading to improved performance and productivity.</p>
+                        <h4>Outclassing Your Competition</h4>
+                        <p>As we live in the digital era, it's no surprise that mobile apps are gaining immense popularity among businesses. Yet, it's surprising that many organizations have yet to take advantage of this tool. By investing in mobile app development service, you have the opportunity to surpass your competitors and capture the interest of potential customers, ultimately increasing your market share. Don't let this powerful avenue for growth pass you by.</p>
+                        <h4>Save Time and Effort</h4>
+                        <p>Creating a mobile app involves significantly less effort and yields a lighter and faster product when compared to building a website or web application. This is further complemented by its ability to function in an offline mode, a feature not available in its web counterparts. With its simple accessibility and quick access to crucial information about a business, mobile apps offer customers a hassle-free experience that saves valuable time.</p>
+                        <h4>Revolutionizing Marketing</h4>
+                        <p>In the past, marketing has relied heavily on traditional channels such as newspapers, TV commercials, and social media. This meant having to constantly pay publishers in order to keep your advertisements running effectively. But with the rise of mobile apps, the marketing landscape has seen a significant shift. <br>
+                        Unlike traditional methods, a well-maintained app doesn't require constant spending to stay relevant. In fact, by utilizing push notifications, businesses can easily keep their customers informed about new products, services, and promotions. This not only improves the brand's connection with its audience, but also provides a more affordable and convenient way to advertise.
+                        </p>
+                        <h4>Conclusion</h4>
+                        <p>Mobile apps play a vital role in today's digital landscape, driving transformation efforts across industries and organizations. Brands must meet their customers' demands for mobile experiences, with users readily embracing these solutions for their convenience.  As such, investing in mobile app development service is a key step in propelling your organization's digital transformation and keeping pace with the ever-evolving digital world.
+                        <br>
+                        Are you in search of a mobile app that can jumpstart your digital transformation path? Look no further than WayCrossTech. Our powerful technology can bring you amazing results, streamline your business operations, and provide your customers with remarkable benefits. Our expertise lies in designing custom mobile apps that cater to your specific business requirements, keeping you ahead in the rapidly-evolving digital world.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end -->
+
+    <!-- banner sec -->
+    <section class="banner-sec">
+    <div class="container">
+        <div class="row align-items-center justify-content-center text-center">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="section-title" data-aos="zoom-in">
+                    <h2>Upscale Your Backend Development Professionally!</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-center justify-content-center">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                <a href="#" class="btn btn-white-theme" data-aos="fade-up" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Get Started Now</a>
+            </div>
+        </div>
+    </div>
+</section>    <!-- end -->
+
+    <!-- talk business -->
+    <section class="talk-business">
+    <div class="container">
+        <div class="row align-items-center justify-content-center text-center">
+            <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                <h3 class="title" data-aos="zoom-in">Let’s talk business!</h3>
+            </div>
+        </div>
+        <div class="row d-flex align-items-center justify-content-center" data-aos="flip-left">
+            <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                <form method="POST" action="https://waycrosstech.com/talk-business" class="needs-validation">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-body">
+                                <label>You are</label>
+                                <input type="text" class="form-control" name="agency" placeholder="An agency"
+                                    required pattern="[A-Za-z ]+">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-body">
+                                <label>Interested in </label>
+                                <input type="text" class="form-control" name="interested"
+                                    placeholder="Design Services" required="" pattern="[A-Za-z ]+">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-body">
+                                <label>Your name is </label>
+                                <input type="text" class="form-control" name="name" placeholder="john"
+                                    required="" pattern="[A-Za-z ]+">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-body">
+                                <label>Your company name is </label>
+                                <input type="text" class="form-control" name="company" placeholder="Microsoft"
+                                    required="" pattern="[A-Za-z ]+">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-body">
+                                <label>Your contact no is </label>
+                                <input  type="number" class="form-control" name="phone"
+                                    placeholder="+1 888 331-7357" required="" onkeypress="if(this.value.length==12) return false;">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-body">
+                                <label>Your email id </label>
+                                <input type="email" class="form-control" name="email"
+                                    placeholder="info@company.com" pattern="[^\s@]+@[a-zA-Z]+[^0-9@]+\.[cC][oO][mM]$" required="">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-body">
+                                <label>How did you hear about us </label>
+                                <input type="text" class="form-control" name="hear" placeholder="Google" pattern="[A-Za-z ]+"
+                                    required="">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-body">
+                            <button type="submit" class="btn btn-submit mt-4">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+</section>    <!-- end -->
+
+    <!-- footer -->
+    <footer class="footer">
+    <div class="container">
+        <div class="row justify-content-around">
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                <div class="footer-logo">
+                    <a href="index.html"><img src="assets/images/canvas-logo.webp" alt="canvas-logo"/></a>
+                    <p>
+                        Way Cross Tech is a 360 solution to all your digital problems, we have experienced developers, marketeers, designers, and animators right here at your disposal to use as per your liking. In addition to creating scalable and secure strategies and plans we can also help with migration, upgrades and integration of new strategies. We offer a complete digital solution that is able to handle even the most extreme and complex cases easily and swiftly. 
+                    </p>
+                    <p><a href="mailto:info@example.com"><i class="fa fa-envelope"></i> info@example.com</a>
+                    </p>
+                    <a href="#" target="_blank"><img src="assets/images/trustpilot-img.webp" alt="trustpilot-img"/></a>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-12 col-xs-12 col-6">
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="who-we-are.html">Who We Are</a></li>
+                        
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-12 col-xs-12 col-6">
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="designing-services.html">Designing Services</a></li>
+                        <li><a href="web-development-services.html">Web Development</a></li>
+                        <li><a href="app-development-services.html">App Development</a></li>
+                        <li><a href="animation-services.html">Animation Services</a></li>
+                        <li><a href="digital-marketing-services.html">Digital Marketing</a></li>
+                        <li><a href="e-book-services.html">e-book services</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-12 col-xs-12 col-6">
+                <div class="footer-links fr">
+                    <h4>Contact</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="tel:1234567890"> 1234567890</a></li>
+                        <!-- <li><a href="https://wa.me/1234567890"><i class="fa-brands fa-whatsapp"></i> +1234567890</a></li> -->
+                        <li><a href="#"> 407 Lincoln Rd St 6H, Miami Beach, FL 33139</a></li>
+                        <li><a href="javascript:void(Tawk_API.toggle())"> Start Live Chat</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-12 col-xs-12 col-6 frman">
+                <div class="footer-links text-m-center">
+                    <h4>Follow Us</h4>
+                    <div class="social">
+                        <p class="mb-0">
+                            <a href="#" target="_blank" aria-label="facebook"><i
+                                    class="fa-brands fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#" target="_blank" aria-label="linkedin"><i
+                                    class="fa-brands fa-linkedin-in" target="_blank" aria-hidden="true"></i></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="footer-bottom">
+    <div class="container">
+        <div class="row align-items-center mt-0 pt-2 pb-2">
+            <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-xs-12">
+                <div class="footer-bootom-links">
+                    <span>© Copyright 2023 - 2024 Way Cross Tech. All rights reserved.</span>
+
+                </div>
+            </div>
+            <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-xs-12">
+                <div class="social-link text-end">
+                    <p class="mb-0">
+                        <a href="terms-and-conditions.html">Terms &amp; Conditions</a>
+                        <a href="privacy-policy.html">Privacy Policy</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Website JS -->
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<!-- Slick Carousel JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<!--gsap-->
+<!--<script src="https://unpkg.com/gsap@3.9.0/dist/gsap.min.js"></script>-->
+<!--<script src="https://unpkg.com/gsap@3.9.0/dist/ScrollTrigger.min.js"></script>-->
+<!-- Custom JS -->
+
+<!-- AOS JS -->
+<script src="assets/js/aos.js"></script>
+
+<script src="https://unpkg.com/%40lottiefiles/lottie-player%402.0.3/dist/lottie-player.js"></script>
+<script src="https://unpkg.com/%40lottiefiles/lottie-interactivity%401.6.2/dist/lottie-interactivity.min.js"></script>
+<script src="assets/js/main.js"></script>
+<script>
+LottieInteractivity.create({
+    player: '#firstLottie',
+
+    actions: [{
+        visibility: [0, 3.8],
+        type: 'seek',
+        frames: [0, 300],
+    }, ]
+});
+</script>
+
+<script>
+AOS.init({
+    duration: 2000
+});
+</script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>-->
+<!--<script>-->
+<!--var textWrappers = document.querySelectorAll('.coy-rt h1');-->
+<!--textWrappers.forEach((textWrapper) => {-->
+<!--    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<label class='letter'>$&</label>");-->
+
+<!--    anime.timeline({-->
+<!--            loop: true-->
+<!--        })-->
+<!--        .add({-->
+<!--            targets: textWrapper.querySelectorAll('.letter'),-->
+<!--            scale: [4, 1],-->
+<!--            opacity: [0, 1],-->
+<!--            translateZ: 0,-->
+<!--            easing: "easeOutExpo",-->
+<!--            duration: 500,-->
+<!--            delay: (el, i) => 50 * i-->
+<!--        })-->
+<!--        .add({-->
+<!--            targets: textWrapper,-->
+<!--            opacity: 0,-->
+<!--            duration: 1000,-->
+<!--            easing: "easeOutExpo",-->
+<!--            delay: 1000-->
+<!--        });-->
+<!--});-->
+
+<!--var textWrappers = document.querySelectorAll('.coy-rt h3');-->
+<!--textWrappers.forEach((textWrapper) => {-->
+<!--    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<label class='letter'>$&</label>");-->
+
+<!--    anime.timeline({-->
+<!--            loop: true-->
+<!--        })-->
+<!--        .add({-->
+<!--            targets: textWrapper.querySelectorAll('.letter'),-->
+<!--            scale: [4, 1],-->
+<!--            opacity: [0, 1],-->
+<!--            translateZ: 0,-->
+<!--            easing: "easeOutExpo",-->
+<!--            duration: 500,-->
+<!--            delay: (el, i) => 50 * i-->
+<!--        })-->
+<!--        .add({-->
+<!--            targets: textWrapper,-->
+<!--            opacity: 0,-->
+<!--            duration: 1000,-->
+<!--            easing: "easeOutExpo",-->
+<!--            delay: 1000-->
+<!--        });-->
+<!--});-->
+<!--</script>-->
+
+
+
+<!-- Nav Dropdown -->
+<script>
+$(document).ready(function() {
+    $(".service-dropdown").click(function() {
+        $(".main-drop-down").toggle("slow");
+    });
+});
+</script>
+<!-- end -->
+<!-- Hover Image and Mouse Move -->
+<!--<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>-->
+<!--<script>-->
+<!--$(document).ready(function() {-->
+<!--    $('.trigger').hover(function() {-->
+<!--        var imageId = $(this).data('image');-->
+<!--        $('#' + imageId).fadeIn();-->
+
+<!--        $(document).on('mousemove', function(e) {-->
+<!--            $('#' + imageId).css({-->
+<!--                left: e.pageX - $('#' + imageId).width() / 2,-->
+<!--                top: e.pageY - $('#' + imageId).height() / 2-->
+<!--            });-->
+<!--        });-->
+<!--    }, function() {-->
+<!--        $('.hover-img').fadeOut();-->
+<!--        $(document).off('mousemove');-->
+<!--    });-->
+
+     <!--Prevent blinking when hovering over the thumbnail icon-->
+<!--    $('.image-link').hover(function() {-->
+<!--        $(this).find('.hover-img').stop(true, true).fadeIn();-->
+<!--    }, function() {-->
+<!--        $(this).find('.hover-img').stop(true, true).fadeOut();-->
+<!--        $(document).off('mousemove');-->
+<!--    });-->
+<!--});-->
+<!--</script>-->
+<!-- end -->
+
+<!-- Offcanvas Full Page -->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <div class="ofcanvas_bdy">
+            <div class="ofcanvas1">
+                <div class="logonavbar2" data-aos="fade-zoom-in">
+                    <img src="assets/images/canvas-logo.webp" alt="canvas logo"/>
+                   
+                </div>
+            </div>
+            <div class="ofcncls2">
+                <div class="main_navbar">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="who-we-are.html">Who We Are</a></li>
+                        <li><a href="#" class="service-dropdown">Services</a>
+                            <ul class="main-drop-down">
+                                <li><a href="designing-services.html">-Designing Services</a></li>
+                                <li><a href="web-development-services.html">-Web Development</a></li>
+                                <li><a href="app-development-services.html">-App Development</a></li>
+                                <li><a href="animation-services.html">-Animation Services</a></li>
+                                <li><a href="digital-marketing-services.html">-Digital Marketing</a></li>
+                                <li><a href="e-book-services.html">-e-book services</a></li>
+                                
+                            </ul>
+
+                        </li>
+
+
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="contact-us.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="main_navbar_social_icons">
+                    <ul>
+                        <li><a href="#" target="_blank" aria-label="facebook"><i class="fa-brands fa fa-facebook fa-fade"></i></a></li>
+                        <li><a href="mailto:info@example.com" target="_blank"><i class=" fa fa-envelope fa-fade"></i></a></li>
+                        <!--<li><a href=""><i class="fa-brands fa fa-twitter fa-fade"></i></a></li>-->
+                        <li><a href="#" target="_blank" aria-label="linkedin"><i class="fa-brands fa fa-linkedin fa-fade"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end -->
+
+<!-- Offcanvas Mobile Side Bar -->
+<div class="offcanvas offcanvas-start offcanvas-mobile" tabindex="-1" id="offcanvasNavbar"
+    aria-labelledby="offcanvasNavbarLabel">
+    <div class="offcanvas-header">
+        <a href="#"><img src="assets/images/canvas-logo.webp" alt="logo"></a>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body mobile-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="who-we-are.html">
+                    Who We Are
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="service-dropdown text-decoration-none">Services</a>
+                            <ul class="main-drop-down" style="display:none">
+                                <li><a class="text-decoration-none" href="designing-services.html">Designing Services</a></li>
+                                <li><a class="text-decoration-none" href="web-development-services.html">Web Development</a></li>
+                                <li><a class="text-decoration-none" href="app-development-services.html">App Development</a></li>
+                                <li><a class="text-decoration-none" href="animation-services.html">Animation Services</a></li>
+                                <li><a class="text-decoration-none" href="digital-marketing-services.html">Digital Marketing</a></li>
+                                <li><a class="text-decoration-none" href="e-book-services.html">E-Book Services</a></li>
+                            </ul>
+
+                        </li>
+            <li class="nav-item">
+                <a class="nav-link " href="blog.html">
+                    Blog
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="testimonials.html">
+                    Testimonials
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="contact-us.html">
+                    Contact Us
+                </a>
+            </li>
+
+
+        </ul>
+    </div>
+</div>
+<!-- end -->    <!-- end -->
+
+</body>
+</html>

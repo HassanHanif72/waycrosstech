@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Detail</title>
+    <!-- Favicon -->
+<link rel="icon" type="image/png" href="assets/images/favicon.png" />
+<!-- bootstrap 5.1 -->
+<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+<!-- Style css -->
+<link rel="stylesheet" href="assets/css/style.css" />
+<!-- Responsive css -->
+<link rel="stylesheet" href="assets/css/responsive.css" />
+<!-- AOS Animation -->
+<link rel="stylesheet" href="assets/css/aos.css" />
+<!-- Slick Carousel -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+
+<!-- Font Awesome -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" /> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+
+
+
+
+</head>
+
+<body>
+    <!-- header -->
+    <!-- Preloader -->
+<!--<div class="preloader" id="preloader">-->
+<!--    <img src="assets/images/canvas-logo.webp" alt="Preloader" class="logo">-->
+<!--    <div class="balls">-->
+<!--        <div class="ball"></div>-->
+<!--        <div class="ball"></div>-->
+<!--        <div class="ball"></div>-->
+<!--        <div class="ball"></div>-->
+<!--        <div class="ball"></div>-->
+<!--    </div>-->
+<!--</div>-->
+<!-- end -->
+<header class="header">
+    <nav class="navbar navbar-expand-lg navbar-dark stroke bg-transparent">
+        <div class="container">
+            <a class="navbar-brand" href="index.html" data-aos="fade-right">
+                <img src="assets/images/canvas-logo.webp" alt="canvas logo"/>
+            </a>
+            <!-- Offcanvas Full Page -->
+            <button class="navbar-toggler d-xl-block d-none" data-aos="fade-left" type="button"
+                data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                <img src="assets/images/trigger.webp" alt="Trigger"/>
+            </button>
+            <!-- end -->
+
+            <!-- Offcanvas Mobile -->
+            <button class="navbar-toggler d-xl-none d-block" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="offcanvas Navbar" data-aos="zoom-in">
+                <img src="assets/images/trigger.webp" alt="Trigger"/>
+            </button>
+            <!-- end -->
+
+        </div>
+    </nav>
+</header>
+<!--Popup-->
+<div class="modal fade" id="exampleModalToggle" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!--<div class="modal-header">-->
+      <!--  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>-->
+      <!--  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>-->
+      <!--</div>-->
+      <div class="modal-body popu">
+        <div class="">
+                    <div>
+                        <h4>Lets Start Today!</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <form action="https://waycrosstech.com/signup.php" method="POST">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Full Name" name="name" pattern="[A-Za-z ]+" required/>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Email" pattern="[^\s@]+@[a-zA-Z]+[^0-9@]+\.[cC][oO][mM]$" name="email" required/>
+                            </div>
+                            <div class="mb-3">
+                                <input type="number" class="form-control" placeholder="Phone Number" name='phone' 
+                                onkeypress="if(this.value.length==12) return false;" required/>
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Company" name='service' pattern="[A-Za-z ]+" required/>
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" rows="3" placeholder="Message" name="msg" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-theme w-100 mt-3">Submit</button>
+                        </form>
+                    </div>
+                </div>
+      </div>
+      <!--<div class="modal-footer">-->
+      <!--  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+      <!--  <button type="button" class="btn btn-primary">Save changes</button>-->
+      <!--</div>-->
+    </div>
+  </div>
+</div><!--end-->
+    <!-- End header -->
+
+    <!-- blog detail -->
+    <section class="blog-detail">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="left" data-aos="fade-down">
+                        <span>Sep 11, 2023</span>
+                        <h1>Mastering Digital Presence: Unveiling The Power Of Professional Website Development Services</h1>
+                        <p>Author: Kyle Bennett</p>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-xs-12">
+                    <div class="right" data-aos="fade-up">
+                        <img src="assets/images/blog-2.webp" class="w-100"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End section -->
+
+    <!-- Blog Paragraph -->
+    <section class="blog-para">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="blog-para-sec" data-aos="zoom-in">
+                        <p>In this fast-evolving and highly competitive digital time, your business needs to establish a robust and impactful online presence that hooks the attention of every single eye. However, no matter how big or small or what sector it belongs to, every company faces the challenge of attracting and engaging its potential customers online to boost its success to the next level. In this matter, the role of professional website development services helps shape a brand’s identity in the digital world and connect with customers in meaningful ways, which is very beneficial for your growing business. Besides, these services create compelling websites that stand out in the market and are essential in ensuring a seamless and engaging user experience. In short, they will lead you to enhanced customer loyalty and satisfaction.<br>
+                        But the question is how you can hire professional web developers. What steps must you consider before hiring website design and development services? Well, there are countless blogs on the internet, and I am sure you are tired of reading them and still need something in your hand. So, from now on, you don't have to run on Google and read different kinds of guides on hiring expert development. Because of this, we have every single detail that will help you hire those who are worthy enough to offer you the service or outputs you are looking for. So, buckle up your seat and get ready because this blog is full of fantastic information you want to take advantage of.
+                        </p>
+                        <h2>HOW WEB DESIGN SERVICES CAN HELP YOU CREATE A STRONG BRAND IDENTITY</h2>
+                        <p>
+                            For the success of any business, a well-crafted and carefully designed website creates a strong brand identity for the brand or service you are providing. Unquestionably, it will easily attract new visitors, convert them into leads, and deliver results beyond expectations. Additionally, staying updated on web design trends will help you stand at the top of the list in the market from your compilators. On the other hand, expert website designing and development services possess an in-depth understanding of the intricacies of creating a fascinating online presence. These service providers have a pool of specialized developers tailoring the design elements to reflect your business's distinct attributes and brand persona. These services combine creativity and functionality to help companies create a unique and genuine online presence that attracts their ideal customers and makes an undefeatable name in the market.   
+                        </p>
+                        <h3>HOW DEVELOPERS BUILD AND MAINTAIN QUALITY WEBSITES</h3>
+                        <p>
+                           Before creating a stunning website, the developer must follow the process in this context. The best results come from having a smooth web development workflow where the different functions cooperate and align with a shared goal. So, let's look at the diverse stages of the web development process. 
+ 
+                        </p>
+                        <h3>ANALYSIS</h3>
+                        <p>
+                           Before starting work on any site, the developer has the first step, the analysis, and information-gathering phase. However, this is very important for understanding the goals of your website and how those goals can be achieved to give you the desired output you want. During this, web developers work with clients to understand their requirements and determine the best way to meet those.<br>
+This process involves creating user personas, conducting user research, analyzing competitor websites, developing site maps, etc. By taking the time to carefully examine the requirements of a website, website design and development services ensure that the final product is effective and meets its users' needs.
+
+                        </p>
+                        <h3>DESIGN</h3>
+                        <p>
+                           Next, the design stage comes in the web development process, which is crucial since it directly impacts the UI/UX of your website. The design of your website must be responsive, highly intuitive, and easy to hook your user's attention. Web designers optimize website design based on the client's requirements.<br>
+The web designer has to structure the Site with the visual components and content, including activity layouts, navigation panels, images, and videos. Experienced web designers who are up to date with the latest web development trends can help you create efficient designs through the latest frameworks, libraries, and design components. On the other hand, the designers must have an excellent grasp of all front-end technologies, including HTML/CSS.
+
+                        </p>
+                        <h3>DEVELOPMENT</h3>
+                        <p>
+                           The development and coding phase will be when the actual code for the website is written and finalized. This can be done using various programming languages, depending on the functionalities required in the website. This is when the developer takes all of the designs, wireframes, and other elements from the previous phases and starts working on them.<br>
+This step involves many tasks, from writing code to setting up server-side. In many cases, the entire website may be coded from scratch, but sometimes developers use pre-existing tools or frameworks to speed up the process and give outstanding results. The development phase involves deploying site plugins, added features, and security integration.
+
+
+                        </p>
+                        <h3>TESTING & REVIEW WEBSITE</h3>
+                        <p>
+                          After the design and development of the website are done, the next stage is testing it comprehensively to find any bugs or errors before it goes live on Google. This is one of web development's most severe yet underrated stages. Different testing methods and techniques ensure the website performs well and is ready to go. Once the website is ready to be launched, it is also vital to monitor its performance and address any issues it may cause. By conducting testing during every phase of development, developers can create high-quality websites that meet the needs of their users.
+                        </p>
+                        <h3>MAINTENANCE</h3>
+                        <p>
+                          It is an integral part of the web development process for ensuring optimum performance and continuous upgrades based on evolving requirements and trends. The phase entails regular monitoring of the website's performance and bringing regular updates for enhanced features and functionality. <br>
+Further, website maintenance might include various tasks such as updating software, backing up data, monitoring web traffic, and checking for security vulnerabilities. By frequently performing maintenance, you can ensure that your website remains relevant, updated, and optimal at all times for the users. 
+
+                        </p>
+                        <h3>TECHNOLOGIES USED IN THE WEB DEVELOPMENT PROCESS</h3>
+                        <p>You can find various technologies, including programming languages, frameworks, libraries, and tools broadly used by custom website development services to create highly functional custom websites. It would help if you had an inclusive understanding of the tech needed to build highly optimized websites to help you decide your budget and hiring requirements. The tech required for web development can be divided into three major categories: front-end and back-end development.
+</p>
+                        <h3>FRONT-END FOR WEB DEVELOPMENT</h3>
+                        <p>When creating a website, the front-end technologies can significantly impact the overall development process. A wide variation of front-end technologies is available, each with amazing and unique features, strengths, and weaknesses. Choosing the right technology can make a massive difference in the speed and efficiency of your process. HTML, CSS, JavaScript, React, Angular, Vue.js, and Bootstrap are the most widely used front-end technologies. Each of these technologies has unique capabilities that can be leveraged to create an engaging and user-friendly website for your business. 
+</p>
+                        <h3>BACK-END FOR WEB DEVELOPMENT</h3>
+                        <p>Next, the back end is the core of web development as it provides the business logic and data fetching capabilities for the user actions on the front end of the website. The back-end includes the server that processes all the website's files, the database that stores the website's data, and the website's application. The back-end technologies are responsible for smoothly functioning and synchronizing all website components. They handle the server-side operations and data processing whenever you access a website. Some prominent back-end technologies in web development are Java, Python, PHP, Ruby, ASP.NET, Oracle, MySQL, and more. 
+</p>
+                        <h3>FULL-STACK DEVELOPMENT</h3>
+                        <p>Lastly, Full-stack development combines both front-end and back-end development skills. The Full-stack developers possess a comprehensive understanding of the complete web development process. They can handle all aspects of the construction of a website, from designing the user interface to managing the server infrastructure.
+</p>
+                        <h3>WHAT’S NEW IN WEB DEVELOPMENT FOR 2023?</h3>
+                        <h4>RESPONSIVE DESIGN</h4>
+                        <p>Since mobile device use has increased, responsive design has become a necessity. Websites must adapt to various screen sizes and resolutions to deliver a consistent and user-friendly experience. That is why the responsive design ensures that websites look and function seamlessly across desktops, tablets, and smartphones.
+</p>
+                        <h4>PROGRESSIVE WEB APPLICATIONS (PWAS)</h4>
+                        <p>The progressive web applications (PWAs) provide an app-like experience within a web browser. They combine the impressive features of web and mobile applications, offering offline capabilities, push notifications, and enhanced performance efficiently. PWAs provide immersive and interactive experiences that do not require users to download or install any apps. That is why they are becoming more popular.
+</p>
+                        <h4>ARTIFICIAL INTELLIGENCE (AI) COMBINATION</h4>
+                        <p>Customer interactions are being transformed by chatbots and virtual assistants that use AI. Web developers incorporate AI technologies to enhance user engagement, provide personalized experiences, and streamline customer support. However, AI can automate repetitive tasks, analyze user data, and make intelligent recommendations, improving overall website performance.
+</p>
+                        <h4>HOW TO HIRE A WEBSITE DESIGN AND DEVELOPMENT SERVICES</h4>
+                        <p>To build a unique and scalable website with dynamic features, you must hire top web developers with considerable expertise and experience. The quality and reliability of the web developers you hire will significantly influence your web development project's overall business success and productivity. Besides, the right website development services can make a massive difference in the success of your online presence. Here are some critical steps to guide you through the process:
+                            </p>
+                            <p>- Define your needs and goals.</p>
+                            <p>- Research and compare the Site</p>
+                            <p>- Prepare a Request for Proposal (RPF)</p>
+                            <p>- Build a Robust Relationship with Service Provider
+                            </p>
+                            <p>By following these steps, you can increase your chances of finding the right website design and development services to create a website that meets your needs and exceeds your expectations. On the other hand, it helps you create an impressive brand identity. And, if you want to take your online presence to the next level, look no further than Waycross Tech. With over the years of experience, we are the experts in website development services. We can create stunning and functional websites to help you achieve your goals.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end -->
+
+    <!-- banner sec -->
+    <section class="banner-sec">
+    <div class="container">
+        <div class="row align-items-center justify-content-center text-center">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="section-title" data-aos="zoom-in">
+                    <h2>Upscale Your Backend Development Professionally!</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-center justify-content-center">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                <a href="#" class="btn btn-white-theme" data-aos="fade-up" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Get Started Now</a>
+            </div>
+        </div>
+    </div>
+</section>    <!-- end -->
+
+    <!-- talk business -->
+    <section class="talk-business">
+    <div class="container">
+        <div class="row align-items-center justify-content-center text-center">
+            <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                <h3 class="title" data-aos="zoom-in">Let’s talk business!</h3>
+            </div>
+        </div>
+        <div class="row d-flex align-items-center justify-content-center" data-aos="flip-left">
+            <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                <form method="POST" action="https://waycrosstech.com/talk-business" class="needs-validation">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-body">
+                                <label>You are</label>
+                                <input type="text" class="form-control" name="agency" placeholder="An agency"
+                                    required pattern="[A-Za-z ]+">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-body">
+                                <label>Interested in </label>
+                                <input type="text" class="form-control" name="interested"
+                                    placeholder="Design Services" required="" pattern="[A-Za-z ]+">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-body">
+                                <label>Your name is </label>
+                                <input type="text" class="form-control" name="name" placeholder="john"
+                                    required="" pattern="[A-Za-z ]+">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-body">
+                                <label>Your company name is </label>
+                                <input type="text" class="form-control" name="company" placeholder="Microsoft"
+                                    required="" pattern="[A-Za-z ]+">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-body">
+                                <label>Your contact no is </label>
+                                <input  type="number" class="form-control" name="phone"
+                                    placeholder="+1 888 331-7357" required="" onkeypress="if(this.value.length==12) return false;">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-body">
+                                <label>Your email id </label>
+                                <input type="email" class="form-control" name="email"
+                                    placeholder="info@company.com" pattern="[^\s@]+@[a-zA-Z]+[^0-9@]+\.[cC][oO][mM]$" required="">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-body">
+                                <label>How did you hear about us </label>
+                                <input type="text" class="form-control" name="hear" placeholder="Google" pattern="[A-Za-z ]+"
+                                    required="">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-body">
+                            <button type="submit" class="btn btn-submit mt-4">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+</section>    <!-- end -->
+
+    <!-- footer -->
+    <footer class="footer">
+    <div class="container">
+        <div class="row justify-content-around">
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                <div class="footer-logo">
+                    <a href="index.html"><img src="assets/images/canvas-logo.webp" alt="canvas-logo"/></a>
+                    <p>
+                        Way Cross Tech is a 360 solution to all your digital problems, we have experienced developers, marketeers, designers, and animators right here at your disposal to use as per your liking. In addition to creating scalable and secure strategies and plans we can also help with migration, upgrades and integration of new strategies. We offer a complete digital solution that is able to handle even the most extreme and complex cases easily and swiftly. 
+                    </p>
+                    <p><a href="mailto:info@example.com"><i class="fa fa-envelope"></i> info@example.com</a>
+                    </p>
+                    <a href="#" target="_blank"><img src="assets/images/trustpilot-img.webp" alt="trustpilot-img"/></a>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-12 col-xs-12 col-6">
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="who-we-are.html">Who We Are</a></li>
+                        
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-12 col-xs-12 col-6">
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="designing-services.html">Designing Services</a></li>
+                        <li><a href="web-development-services.html">Web Development</a></li>
+                        <li><a href="app-development-services.html">App Development</a></li>
+                        <li><a href="animation-services.html">Animation Services</a></li>
+                        <li><a href="digital-marketing-services.html">Digital Marketing</a></li>
+                        <li><a href="e-book-services.html">e-book services</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-12 col-xs-12 col-6">
+                <div class="footer-links fr">
+                    <h4>Contact</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="tel:1234567890"> 1234567890</a></li>
+                        <!-- <li><a href="https://wa.me/1234567890"><i class="fa-brands fa-whatsapp"></i> +1234567890</a></li> -->
+                        <li><a href="#"> 407 Lincoln Rd St 6H, Miami Beach, FL 33139</a></li>
+                        <li><a href="javascript:void(Tawk_API.toggle())"> Start Live Chat</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-12 col-xs-12 col-6 frman">
+                <div class="footer-links text-m-center">
+                    <h4>Follow Us</h4>
+                    <div class="social">
+                        <p class="mb-0">
+                            <a href="#" target="_blank" aria-label="facebook"><i
+                                    class="fa-brands fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#" target="_blank" aria-label="linkedin"><i
+                                    class="fa-brands fa-linkedin-in" target="_blank" aria-hidden="true"></i></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="footer-bottom">
+    <div class="container">
+        <div class="row align-items-center mt-0 pt-2 pb-2">
+            <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-xs-12">
+                <div class="footer-bootom-links">
+                    <span>© Copyright 2023 - 2024 Way Cross Tech. All rights reserved.</span>
+
+                </div>
+            </div>
+            <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-xs-12">
+                <div class="social-link text-end">
+                    <p class="mb-0">
+                        <a href="terms-and-conditions.html">Terms &amp; Conditions</a>
+                        <a href="privacy-policy.html">Privacy Policy</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Website JS -->
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<!-- Slick Carousel JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<!--gsap-->
+<!--<script src="https://unpkg.com/gsap@3.9.0/dist/gsap.min.js"></script>-->
+<!--<script src="https://unpkg.com/gsap@3.9.0/dist/ScrollTrigger.min.js"></script>-->
+<!-- Custom JS -->
+
+<!-- AOS JS -->
+<script src="assets/js/aos.js"></script>
+
+<script src="https://unpkg.com/%40lottiefiles/lottie-player%402.0.3/dist/lottie-player.js"></script>
+<script src="https://unpkg.com/%40lottiefiles/lottie-interactivity%401.6.2/dist/lottie-interactivity.min.js"></script>
+<script src="assets/js/main.js"></script>
+<script>
+LottieInteractivity.create({
+    player: '#firstLottie',
+
+    actions: [{
+        visibility: [0, 3.8],
+        type: 'seek',
+        frames: [0, 300],
+    }, ]
+});
+</script>
+
+<script>
+AOS.init({
+    duration: 2000
+});
+</script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>-->
+<!--<script>-->
+<!--var textWrappers = document.querySelectorAll('.coy-rt h1');-->
+<!--textWrappers.forEach((textWrapper) => {-->
+<!--    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<label class='letter'>$&</label>");-->
+
+<!--    anime.timeline({-->
+<!--            loop: true-->
+<!--        })-->
+<!--        .add({-->
+<!--            targets: textWrapper.querySelectorAll('.letter'),-->
+<!--            scale: [4, 1],-->
+<!--            opacity: [0, 1],-->
+<!--            translateZ: 0,-->
+<!--            easing: "easeOutExpo",-->
+<!--            duration: 500,-->
+<!--            delay: (el, i) => 50 * i-->
+<!--        })-->
+<!--        .add({-->
+<!--            targets: textWrapper,-->
+<!--            opacity: 0,-->
+<!--            duration: 1000,-->
+<!--            easing: "easeOutExpo",-->
+<!--            delay: 1000-->
+<!--        });-->
+<!--});-->
+
+<!--var textWrappers = document.querySelectorAll('.coy-rt h3');-->
+<!--textWrappers.forEach((textWrapper) => {-->
+<!--    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<label class='letter'>$&</label>");-->
+
+<!--    anime.timeline({-->
+<!--            loop: true-->
+<!--        })-->
+<!--        .add({-->
+<!--            targets: textWrapper.querySelectorAll('.letter'),-->
+<!--            scale: [4, 1],-->
+<!--            opacity: [0, 1],-->
+<!--            translateZ: 0,-->
+<!--            easing: "easeOutExpo",-->
+<!--            duration: 500,-->
+<!--            delay: (el, i) => 50 * i-->
+<!--        })-->
+<!--        .add({-->
+<!--            targets: textWrapper,-->
+<!--            opacity: 0,-->
+<!--            duration: 1000,-->
+<!--            easing: "easeOutExpo",-->
+<!--            delay: 1000-->
+<!--        });-->
+<!--});-->
+<!--</script>-->
+
+
+
+<!-- Nav Dropdown -->
+<script>
+$(document).ready(function() {
+    $(".service-dropdown").click(function() {
+        $(".main-drop-down").toggle("slow");
+    });
+});
+</script>
+<!-- end -->
+<!-- Hover Image and Mouse Move -->
+<!--<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>-->
+<!--<script>-->
+<!--$(document).ready(function() {-->
+<!--    $('.trigger').hover(function() {-->
+<!--        var imageId = $(this).data('image');-->
+<!--        $('#' + imageId).fadeIn();-->
+
+<!--        $(document).on('mousemove', function(e) {-->
+<!--            $('#' + imageId).css({-->
+<!--                left: e.pageX - $('#' + imageId).width() / 2,-->
+<!--                top: e.pageY - $('#' + imageId).height() / 2-->
+<!--            });-->
+<!--        });-->
+<!--    }, function() {-->
+<!--        $('.hover-img').fadeOut();-->
+<!--        $(document).off('mousemove');-->
+<!--    });-->
+
+     <!--Prevent blinking when hovering over the thumbnail icon-->
+<!--    $('.image-link').hover(function() {-->
+<!--        $(this).find('.hover-img').stop(true, true).fadeIn();-->
+<!--    }, function() {-->
+<!--        $(this).find('.hover-img').stop(true, true).fadeOut();-->
+<!--        $(document).off('mousemove');-->
+<!--    });-->
+<!--});-->
+<!--</script>-->
+<!-- end -->
+
+<!-- Offcanvas Full Page -->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <div class="ofcanvas_bdy">
+            <div class="ofcanvas1">
+                <div class="logonavbar2" data-aos="fade-zoom-in">
+                    <img src="assets/images/canvas-logo.webp" alt="canvas logo"/>
+                   
+                </div>
+            </div>
+            <div class="ofcncls2">
+                <div class="main_navbar">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="who-we-are.html">Who We Are</a></li>
+                        <li><a href="#" class="service-dropdown">Services</a>
+                            <ul class="main-drop-down">
+                                <li><a href="designing-services.html">-Designing Services</a></li>
+                                <li><a href="web-development-services.html">-Web Development</a></li>
+                                <li><a href="app-development-services.html">-App Development</a></li>
+                                <li><a href="animation-services.html">-Animation Services</a></li>
+                                <li><a href="digital-marketing-services.html">-Digital Marketing</a></li>
+                                <li><a href="e-book-services.html">-e-book services</a></li>
+                                
+                            </ul>
+
+                        </li>
+
+
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="contact-us.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="main_navbar_social_icons">
+                    <ul>
+                        <li><a href="#" target="_blank" aria-label="facebook"><i class="fa-brands fa fa-facebook fa-fade"></i></a></li>
+                        <li><a href="mailto:info@example.com" target="_blank"><i class=" fa fa-envelope fa-fade"></i></a></li>
+                        <!--<li><a href=""><i class="fa-brands fa fa-twitter fa-fade"></i></a></li>-->
+                        <li><a href="#" target="_blank" aria-label="linkedin"><i class="fa-brands fa fa-linkedin fa-fade"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end -->
+
+<!-- Offcanvas Mobile Side Bar -->
+<div class="offcanvas offcanvas-start offcanvas-mobile" tabindex="-1" id="offcanvasNavbar"
+    aria-labelledby="offcanvasNavbarLabel">
+    <div class="offcanvas-header">
+        <a href="#"><img src="assets/images/canvas-logo.webp" alt="logo"></a>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body mobile-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="who-we-are.html">
+                    Who We Are
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="service-dropdown text-decoration-none">Services</a>
+                            <ul class="main-drop-down" style="display:none">
+                                <li><a class="text-decoration-none" href="designing-services.html">Designing Services</a></li>
+                                <li><a class="text-decoration-none" href="web-development-services.html">Web Development</a></li>
+                                <li><a class="text-decoration-none" href="app-development-services.html">App Development</a></li>
+                                <li><a class="text-decoration-none" href="animation-services.html">Animation Services</a></li>
+                                <li><a class="text-decoration-none" href="digital-marketing-services.html">Digital Marketing</a></li>
+                                <li><a class="text-decoration-none" href="e-book-services.html">E-Book Services</a></li>
+                            </ul>
+
+                        </li>
+            <li class="nav-item">
+                <a class="nav-link " href="blog.html">
+                    Blog
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="testimonials.html">
+                    Testimonials
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="contact-us.html">
+                    Contact Us
+                </a>
+            </li>
+
+
+        </ul>
+    </div>
+</div>
+<!-- end -->    <!-- end -->
+
+</body>
+
+</html>
